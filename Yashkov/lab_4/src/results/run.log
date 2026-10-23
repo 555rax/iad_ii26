@@ -1,0 +1,6 @@
+Credit Approval | baseline: accuracy=0.8266, macro-F1=0.8249 (pretrain 0.0s)
+Credit Approval | autoencoder: accuracy=0.8208, macro-F1=0.8184 (pretrain 0.123s)
+Credit Approval | RBM: accuracy=0.8208, macro-F1=0.8184 (pretrain 0.076s)
+WDBC | baseline: accuracy=0.9650, macro-F1=0.9621 (pretrain 0.0s)
+WDBC | autoencoder: accuracy=0.9720, macro-F1=0.9695 (pretrain 0.092s)
+WDBC | RBM: accuracy=0.9650, macro-F1=0.9621 (pretrain 0.055s)

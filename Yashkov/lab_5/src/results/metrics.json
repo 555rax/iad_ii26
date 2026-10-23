@@ -1,0 +1,97 @@
+{
+  "variant": 11,
+  "student": "Яшков П. А.",
+  "dataset": "Course Drive Bank Marketing (bank.csv, deposit)",
+  "rows": 11162,
+  "train_rows": 8371,
+  "test_rows": 2791,
+  "features_encoded": 51,
+  "target": "deposit=yes",
+  "models": {
+    "Decision Tree": {
+      "accuracy": 0.8151200286635615,
+      "precision_yes": 0.7989614243323442,
+      "recall_yes": 0.8146747352496218,
+      "f1_yes": 0.8067415730337079,
+      "confusion_matrix": [
+        [
+          1198,
+          271
+        ],
+        [
+          245,
+          1077
+        ]
+      ],
+      "training_seconds": 0.034
+    },
+    "Random Forest": {
+      "accuracy": 0.8570404872805446,
+      "precision_yes": 0.8211551844119693,
+      "recall_yes": 0.8925869894099848,
+      "f1_yes": 0.8553823849220732,
+      "confusion_matrix": [
+        [
+          1212,
+          257
+        ],
+        [
+          142,
+          1180
+        ]
+      ],
+      "training_seconds": 0.768
+    },
+    "AdaBoost": {
+      "accuracy": 0.8201361519168757,
+      "precision_yes": 0.8144171779141104,
+      "recall_yes": 0.8033282904689864,
+      "f1_yes": 0.8088347296268088,
+      "confusion_matrix": [
+        [
+          1227,
+          242
+        ],
+        [
+          260,
+          1062
+        ]
+      ],
+      "training_seconds": 1.056
+    },
+    "CatBoost": {
+      "accuracy": 0.8627731995700466,
+      "precision_yes": 0.8365591397849462,
+      "recall_yes": 0.8827534039334342,
+      "f1_yes": 0.8590357011409643,
+      "confusion_matrix": [
+        [
+          1241,
+          228
+        ],
+        [
+          155,
+          1167
+        ]
+      ],
+      "training_seconds": 0.493
+    },
+    "XGBoost": {
+      "accuracy": 0.8624149050519527,
+      "precision_yes": 0.836441893830703,
+      "recall_yes": 0.8819969742813918,
+      "f1_yes": 0.8586156111929307,
+      "confusion_matrix": [
+        [
+          1241,
+          228
+        ],
+        [
+          156,
+          1166
+        ]
+      ],
+      "training_seconds": 0.159
+    }
+  }
+}

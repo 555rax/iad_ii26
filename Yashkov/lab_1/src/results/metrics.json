@@ -1,0 +1,32 @@
+{
+  "variant": 11,
+  "student": "Яшков П. А.",
+  "rows": 210,
+  "features": 7,
+  "classes": [
+    1,
+    2,
+    3
+  ],
+  "methods": {
+    "2": {
+      "retained_variance_percent": 88.9825,
+      "loss_percent": 11.0175,
+      "eigenvalues_first": [
+        5.055274,
+        1.203303
+      ],
+      "max_variance_eigen_diff": 1.4210854715202004e-14
+    },
+    "3": {
+      "retained_variance_percent": 98.6682,
+      "loss_percent": 1.3318,
+      "eigenvalues_first": [
+        5.055274,
+        1.203303,
+        0.681247
+      ],
+      "max_variance_eigen_diff": 1.4210854715202004e-14
+    }
+  }
+}

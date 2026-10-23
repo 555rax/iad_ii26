@@ -1,0 +1,48 @@
+/mnt/data/yashkov11/lab_2/src/ИАД_2.py:37: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  opt.zero_grad();loss=nn.functional.mse_loss(model(z),z);loss.backward();opt.step();total+=float(loss)*len(z)
+{
+  "dataset": "UCI WDBC, diagnosis (second column)",
+  "samples": 569,
+  "features": 30,
+  "classes": [
+    0,
+    1
+  ],
+  "autoencoders": {
+    "2": {
+      "epochs": 70,
+      "initial_mse": 0.107564693333185,
+      "final_mse": 0.008792167153006488
+    },
+    "3": {
+      "epochs": 70,
+      "initial_mse": 0.09923617321808016,
+      "final_mse": 0.008270053977804727
+    }
+  },
+  "tsne": {
+    "2D_perplexity_20": {
+      "kl_divergence": 1.041555404663086
+    },
+    "2D_perplexity_40": {
+      "kl_divergence": 0.8211814165115356
+    },
+    "2D_perplexity_60": {
+      "kl_divergence": 0.6900086402893066
+    },
+    "3D_perplexity_20": {
+      "kl_divergence": 0.6441541855843783
+    },
+    "3D_perplexity_40": {
+      "kl_divergence": 0.4636819600754187
+    },
+    "3D_perplexity_60": {
+      "kl_divergence": 0.3381273507860462
+    }
+  },
+  "tsne_sample_size": {
+    "2D": 569,
+    "3D": 350
+  }
+}

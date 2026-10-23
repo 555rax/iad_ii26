@@ -1,0 +1,9 @@
+/mnt/data/iad_work/lab_3/src/NN_common.py:71: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  optimizer.zero_grad();output=model(trainx[ix]);loss=nn.functional.cross_entropy(output,trainy[ix]);loss.backward();optimizer.step();epoch_loss+=float(loss)*len(ix)
+CTG (NSP)
+baseline accuracy= 0.8929 f1_macro= 0.7943 time_s= 0.25
+autoencoder accuracy= 0.9098 f1_macro= 0.8225 time_s= 0.24
+Optdigits
+baseline accuracy= 0.9527 f1_macro= 0.9528 time_s= 0.61
+autoencoder accuracy= 0.9444 f1_macro= 0.9444 time_s= 0.56

@@ -1,0 +1,8 @@
+CTG (NSP)
+baseline accuracy= 0.8929 f1_macro= 0.7943 time_s= 0.28
+autoencoder accuracy= 0.9098 f1_macro= 0.8225 time_s= 0.25
+RBM accuracy= 0.7782 f1_macro= 0.2918 time_s= 0.26
+Optdigits
+baseline accuracy= 0.9527 f1_macro= 0.9528 time_s= 0.72
+autoencoder accuracy= 0.9444 f1_macro= 0.9444 time_s= 0.58
+RBM accuracy= 0.9065 f1_macro= 0.9064 time_s= 0.55

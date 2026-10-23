@@ -1,0 +1,1 @@
+Wisconsin Diagnostic Breast Cancer (WDBC), 569×30, данные через `sklearn.datasets.load_breast_cancer`; метка Diagnosis соответствует 2-му столбцу исходного UCI WDBC, ID создан только для демонстрации структуры и исключён из расчётов. t-SNE 3D строится на фиксированной подвыборке 350 наблюдений.

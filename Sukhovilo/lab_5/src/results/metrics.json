@@ -1,0 +1,98 @@
+{
+  "dataset_rows": 8124,
+  "train_size": 6093,
+  "test_size": 2031,
+  "encoded_features": 117,
+  "models": {
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision_poisonous": 1.0,
+      "recall_poisonous": 1.0,
+      "f1_poisonous": 1.0,
+      "false_negatives": 0,
+      "confusion_matrix": [
+        [
+          1052,
+          0
+        ],
+        [
+          0,
+          979
+        ]
+      ],
+      "training_seconds": 0.018
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision_poisonous": 1.0,
+      "recall_poisonous": 1.0,
+      "f1_poisonous": 1.0,
+      "false_negatives": 0,
+      "confusion_matrix": [
+        [
+          1052,
+          0
+        ],
+        [
+          0,
+          979
+        ]
+      ],
+      "training_seconds": 0.234
+    },
+    "AdaBoost": {
+      "accuracy": 0.9985228951255539,
+      "precision_poisonous": 1.0,
+      "recall_poisonous": 0.9969356486210419,
+      "f1_poisonous": 0.99846547314578,
+      "false_negatives": 3,
+      "confusion_matrix": [
+        [
+          1052,
+          0
+        ],
+        [
+          3,
+          976
+        ]
+      ],
+      "training_seconds": 0.844
+    },
+    "CatBoost": {
+      "accuracy": 1.0,
+      "precision_poisonous": 1.0,
+      "recall_poisonous": 1.0,
+      "f1_poisonous": 1.0,
+      "false_negatives": 0,
+      "confusion_matrix": [
+        [
+          1052,
+          0
+        ],
+        [
+          0,
+          979
+        ]
+      ],
+      "training_seconds": 0.402
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision_poisonous": 1.0,
+      "recall_poisonous": 1.0,
+      "f1_poisonous": 1.0,
+      "false_negatives": 0,
+      "confusion_matrix": [
+        [
+          1052,
+          0
+        ],
+        [
+          0,
+          979
+        ]
+      ],
+      "training_seconds": 0.132
+    }
+  }
+}

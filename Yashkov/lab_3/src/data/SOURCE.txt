@@ -1,0 +1,1 @@
+Credit Approval (UCI, 690 строк, 15 признаков; архивированная копия `crx.data` от WinVector/Examples); WDBC (569×30) из ЛР №2. Разделение стратифицировано, предобработка fit исключительно на train. Классы Credit Approval: `+/-`, WDBC: `B/M`.

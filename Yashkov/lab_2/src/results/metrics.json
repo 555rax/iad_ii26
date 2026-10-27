@@ -1,0 +1,57 @@
+{
+  "dataset": "UCI WDBC, diagnosis (second column)",
+  "samples": 569,
+  "features": 30,
+  "classes": [
+    0,
+    1
+  ],
+  "autoencoders": {
+    "2": {
+      "epochs": 70,
+      "initial_mse": 0.107564693333185,
+      "final_mse": 0.008792167153006488
+    },
+    "3": {
+      "epochs": 70,
+      "initial_mse": 0.09923617321808016,
+      "final_mse": 0.008270053977804727
+    }
+  },
+  "tsne": {
+    "2D_perplexity_20": {
+      "kl_divergence": 1.041555404663086
+    },
+    "2D_perplexity_40": {
+      "kl_divergence": 0.8211814165115356
+    },
+    "2D_perplexity_60": {
+      "kl_divergence": 0.6900086402893066
+    },
+    "3D_perplexity_20": {
+      "kl_divergence": 0.6441541855843783
+    },
+    "3D_perplexity_40": {
+      "kl_divergence": 0.4636819600754187
+    },
+    "3D_perplexity_60": {
+      "kl_divergence": 0.3381273507860462
+    }
+  },
+  "tsne_sample_size": {
+    "2D": 569,
+    "3D": 350
+  },
+  "pca": {
+    "2": {
+      "retained_variance_percent": 70.38117892905733,
+      "loss_percent": 29.61882107094267,
+      "numpy_sklearn_eigenvalue_max_diff": 1.9986543198236006e-07
+    },
+    "3": {
+      "retained_variance_percent": 77.49562089419408,
+      "loss_percent": 22.504379105805917,
+      "numpy_sklearn_eigenvalue_max_diff": 1.9986543198236006e-07
+    }
+  }
+}

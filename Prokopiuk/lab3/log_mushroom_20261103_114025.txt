@@ -1,0 +1,2507 @@
+
+============================================================
+=== DATA ===
+============================================================
+X: (5644, 98), y balance: [3488 2156]
+split: train=3612, val=903, test=1129
+
+============================================================
+=== BASELINE ===
+============================================================
+
+============================================================
+=== baseline, seed=42 ===
+============================================================
+epoch   1 | train 0.5040 acc 0.8184 | val 0.1592 acc 0.9845
+epoch   2 | train 0.0474 acc 0.9947 | val 0.0051 acc 1.0000
+epoch   3 | train 0.0032 acc 0.9997 | val 0.0012 acc 1.0000
+epoch   4 | train 0.0009 acc 1.0000 | val 0.0007 acc 1.0000
+epoch   5 | train 0.0005 acc 1.0000 | val 0.0005 acc 1.0000
+epoch   6 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   7 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch   8 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch   9 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  10 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  11 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  12 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  13 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  14 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  15 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  16 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  17 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  18 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  19 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  20 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  21 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  22 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  23 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  24 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  25 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  26 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  27 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  28 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  29 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  30 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  31 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+early stop at epoch 67
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== baseline, seed=69 ===
+============================================================
+epoch   1 | train 0.4926 acc 0.7935 | val 0.1622 acc 0.9745
+epoch   2 | train 0.0508 acc 0.9906 | val 0.0070 acc 0.9989
+epoch   3 | train 0.0036 acc 0.9997 | val 0.0016 acc 1.0000
+epoch   4 | train 0.0012 acc 1.0000 | val 0.0008 acc 1.0000
+epoch   5 | train 0.0006 acc 1.0000 | val 0.0006 acc 1.0000
+epoch   6 | train 0.0004 acc 1.0000 | val 0.0004 acc 1.0000
+epoch   7 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   8 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   9 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  10 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  11 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  12 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  13 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  14 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  15 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  16 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  17 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  18 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  19 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  20 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  21 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  22 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  23 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  24 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  25 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  26 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  27 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  28 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  29 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  30 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  31 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+early stop at epoch 96
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== baseline, seed=123 ===
+============================================================
+epoch   1 | train 0.5379 acc 0.7877 | val 0.2550 acc 0.9579
+epoch   2 | train 0.0837 acc 0.9864 | val 0.0091 acc 0.9989
+epoch   3 | train 0.0042 acc 0.9994 | val 0.0017 acc 1.0000
+epoch   4 | train 0.0011 acc 1.0000 | val 0.0008 acc 1.0000
+epoch   5 | train 0.0006 acc 1.0000 | val 0.0005 acc 1.0000
+epoch   6 | train 0.0004 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   7 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch   8 | train 0.0002 acc 1.0000 | val 0.0001 acc 1.0000
+epoch   9 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  10 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  11 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  12 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  13 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  14 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  15 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  16 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  17 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  18 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  19 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  20 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  21 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  22 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  23 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  24 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  25 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  26 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  27 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  28 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  29 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  30 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  31 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+early stop at epoch 67
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== baseline, seed=456 ===
+============================================================
+epoch   1 | train 0.5439 acc 0.7306 | val 0.2835 acc 0.8948
+epoch   2 | train 0.1078 acc 0.9784 | val 0.0144 acc 0.9989
+epoch   3 | train 0.0074 acc 0.9989 | val 0.0026 acc 1.0000
+epoch   4 | train 0.0017 acc 1.0000 | val 0.0011 acc 1.0000
+epoch   5 | train 0.0008 acc 1.0000 | val 0.0006 acc 1.0000
+epoch   6 | train 0.0005 acc 1.0000 | val 0.0004 acc 1.0000
+epoch   7 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   8 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch   9 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  10 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  11 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  12 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  13 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  14 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  15 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  16 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  17 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  18 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  19 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  20 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  21 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  22 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  23 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  24 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  25 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  26 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  27 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  28 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  29 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  30 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  31 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+early stop at epoch 82
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== baseline, seed=789 ===
+============================================================
+epoch   1 | train 0.5201 acc 0.7663 | val 0.1940 acc 0.9457
+epoch   2 | train 0.0606 acc 0.9895 | val 0.0083 acc 0.9989
+epoch   3 | train 0.0059 acc 0.9986 | val 0.0020 acc 1.0000
+epoch   4 | train 0.0014 acc 1.0000 | val 0.0010 acc 1.0000
+epoch   5 | train 0.0007 acc 1.0000 | val 0.0007 acc 1.0000
+epoch   6 | train 0.0005 acc 1.0000 | val 0.0004 acc 1.0000
+epoch   7 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch   8 | train 0.0003 acc 1.0000 | val 0.0002 acc 1.0000
+epoch   9 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  10 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  11 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  12 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  13 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  14 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  15 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  16 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  17 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  18 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  19 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  20 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  21 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  22 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  23 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  24 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  25 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  26 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  27 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  28 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  29 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  30 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  31 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+early stop at epoch 82
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== PRETRAINED ===
+============================================================
+
+============================================================
+=== pretrained, seed=42 ===
+============================================================
+AE epoch   1 | val 0.10424
+AE epoch   2 | val 0.07553
+AE epoch   3 | val 0.05843
+AE epoch   4 | val 0.04793
+AE epoch   5 | val 0.04033
+AE epoch   6 | val 0.03339
+AE epoch   7 | val 0.02726
+AE epoch   8 | val 0.02225
+AE epoch   9 | val 0.01814
+AE epoch  10 | val 0.01463
+AE epoch  11 | val 0.01192
+AE epoch  12 | val 0.00956
+AE epoch  13 | val 0.00773
+AE epoch  14 | val 0.00619
+AE epoch  15 | val 0.00504
+AE epoch  16 | val 0.00417
+AE epoch  17 | val 0.00349
+AE epoch  18 | val 0.00296
+AE epoch  19 | val 0.00255
+AE epoch  20 | val 0.00220
+AE epoch  21 | val 0.00193
+AE epoch  22 | val 0.00172
+AE epoch  23 | val 0.00154
+AE epoch  24 | val 0.00139
+AE epoch  25 | val 0.00126
+AE epoch  26 | val 0.00114
+AE epoch  27 | val 0.00103
+AE epoch  28 | val 0.00092
+AE epoch  29 | val 0.00084
+AE epoch  30 | val 0.00077
+AE epoch  31 | val 0.00071
+AE epoch  32 | val 0.00065
+AE epoch  33 | val 0.00060
+AE epoch  34 | val 0.00056
+AE epoch  35 | val 0.00052
+AE epoch  36 | val 0.00049
+AE epoch  37 | val 0.00045
+AE epoch  38 | val 0.00042
+AE epoch  39 | val 0.00040
+AE epoch  40 | val 0.00037
+AE epoch  41 | val 0.00035
+AE epoch  42 | val 0.00033
+AE epoch  43 | val 0.00031
+AE epoch  44 | val 0.00030
+AE epoch  45 | val 0.00028
+AE epoch  46 | val 0.00027
+AE epoch  47 | val 0.00025
+AE epoch  48 | val 0.00024
+AE epoch  49 | val 0.00023
+AE epoch  50 | val 0.00022
+AE epoch  51 | val 0.00021
+AE epoch  52 | val 0.00020
+AE epoch  53 | val 0.00019
+AE epoch  54 | val 0.00018
+AE epoch  55 | val 0.00018
+AE epoch  56 | val 0.00017
+AE epoch  57 | val 0.00016
+AE epoch  58 | val 0.00016
+AE epoch  59 | val 0.00015
+AE epoch  60 | val 0.00014
+AE epoch  61 | val 0.00014
+AE epoch  62 | val 0.00013
+AE epoch  63 | val 0.00013
+AE epoch  64 | val 0.00012
+AE epoch  65 | val 0.00012
+AE epoch  66 | val 0.00011
+AE epoch  67 | val 0.00011
+AE epoch  68 | val 0.00011
+AE epoch  69 | val 0.00010
+AE epoch  70 | val 0.00010
+AE epoch  71 | val 0.00010
+AE epoch  72 | val 0.00009
+AE epoch  73 | val 0.00009
+AE epoch  74 | val 0.00009
+AE epoch  75 | val 0.00008
+AE epoch  76 | val 0.00008
+AE epoch  77 | val 0.00008
+AE epoch  78 | val 0.00008
+AE epoch  79 | val 0.00008
+AE epoch  80 | val 0.00007
+AE epoch  81 | val 0.00007
+AE epoch  82 | val 0.00007
+AE epoch  83 | val 0.00007
+AE epoch  84 | val 0.00006
+AE epoch  85 | val 0.00006
+AE epoch  86 | val 0.00006
+AE epoch  87 | val 0.00006
+AE epoch  88 | val 0.00006
+AE epoch  89 | val 0.00006
+AE epoch  90 | val 0.00006
+AE epoch  91 | val 0.00005
+AE epoch  92 | val 0.00005
+AE epoch  93 | val 0.00005
+AE epoch  94 | val 0.00005
+AE epoch  95 | val 0.00005
+AE epoch  96 | val 0.00005
+AE epoch  97 | val 0.00005
+AE epoch  98 | val 0.00004
+AE epoch  99 | val 0.00004
+AE epoch 100 | val 0.00004
+AE epoch   1 | val 1.09748
+AE epoch   2 | val 0.78826
+AE epoch   3 | val 0.58209
+AE epoch   4 | val 0.46511
+AE epoch   5 | val 0.40345
+AE epoch   6 | val 0.35313
+AE epoch   7 | val 0.31244
+AE epoch   8 | val 0.27987
+AE epoch   9 | val 0.25070
+AE epoch  10 | val 0.22645
+AE epoch  11 | val 0.20370
+AE epoch  12 | val 0.18372
+AE epoch  13 | val 0.16572
+AE epoch  14 | val 0.14898
+AE epoch  15 | val 0.13638
+AE epoch  16 | val 0.12276
+AE epoch  17 | val 0.11065
+AE epoch  18 | val 0.10057
+AE epoch  19 | val 0.09067
+AE epoch  20 | val 0.08212
+AE epoch  21 | val 0.07549
+AE epoch  22 | val 0.07023
+AE epoch  23 | val 0.06426
+AE epoch  24 | val 0.05984
+AE epoch  25 | val 0.05549
+AE epoch  26 | val 0.05176
+AE epoch  27 | val 0.04815
+AE epoch  28 | val 0.04476
+AE epoch  29 | val 0.04202
+AE epoch  30 | val 0.03895
+AE epoch  31 | val 0.03647
+AE epoch  32 | val 0.03422
+AE epoch  33 | val 0.03190
+AE epoch  34 | val 0.03003
+AE epoch  35 | val 0.02841
+AE epoch  36 | val 0.02685
+AE epoch  37 | val 0.02556
+AE epoch  38 | val 0.02409
+AE epoch  39 | val 0.02308
+AE epoch  40 | val 0.02205
+AE epoch  41 | val 0.02112
+AE epoch  42 | val 0.02035
+AE epoch  43 | val 0.01948
+AE epoch  44 | val 0.01876
+AE epoch  45 | val 0.01795
+AE epoch  46 | val 0.01773
+AE epoch  47 | val 0.01664
+AE epoch  48 | val 0.01632
+AE epoch  49 | val 0.01566
+AE epoch  50 | val 0.01528
+AE epoch  51 | val 0.01488
+AE epoch  52 | val 0.01422
+AE epoch  53 | val 0.01409
+AE epoch  54 | val 0.01363
+AE epoch  55 | val 0.01341
+AE epoch  56 | val 0.01310
+AE epoch  57 | val 0.01260
+AE epoch  58 | val 0.01235
+AE epoch  59 | val 0.01197
+AE epoch  60 | val 0.01191
+AE epoch  61 | val 0.01146
+AE epoch  62 | val 0.01125
+AE epoch  63 | val 0.01117
+AE epoch  64 | val 0.01090
+AE epoch  65 | val 0.01117
+AE epoch  66 | val 0.01070
+AE epoch  67 | val 0.01044
+AE epoch  68 | val 0.01016
+AE epoch  69 | val 0.01010
+AE epoch  70 | val 0.00982
+AE epoch  71 | val 0.00968
+AE epoch  72 | val 0.00953
+AE epoch  73 | val 0.00940
+AE epoch  74 | val 0.00950
+AE epoch  75 | val 0.00921
+AE epoch  76 | val 0.00902
+AE epoch  77 | val 0.00886
+AE epoch  78 | val 0.00894
+AE epoch  79 | val 0.00868
+AE epoch  80 | val 0.00900
+AE epoch  81 | val 0.00867
+AE epoch  82 | val 0.00852
+AE epoch  83 | val 0.00847
+AE epoch  84 | val 0.00865
+AE epoch  85 | val 0.00835
+AE epoch  86 | val 0.00822
+AE epoch  87 | val 0.00814
+AE epoch  88 | val 0.00817
+AE epoch  89 | val 0.00796
+AE epoch  90 | val 0.00795
+AE epoch  91 | val 0.00784
+AE epoch  92 | val 0.00789
+AE epoch  93 | val 0.00797
+AE epoch  94 | val 0.00762
+AE epoch  95 | val 0.00760
+AE epoch  96 | val 0.00749
+AE epoch  97 | val 0.00747
+AE epoch  98 | val 0.00741
+AE epoch  99 | val 0.00743
+AE epoch 100 | val 0.00736
+AE epoch   1 | val 4.35893
+AE epoch   2 | val 1.78792
+AE epoch   3 | val 1.54456
+AE epoch   4 | val 1.39766
+AE epoch   5 | val 1.25838
+AE epoch   6 | val 1.12677
+AE epoch   7 | val 1.01364
+AE epoch   8 | val 0.92501
+AE epoch   9 | val 0.85627
+AE epoch  10 | val 0.80743
+AE epoch  11 | val 0.76519
+AE epoch  12 | val 0.72961
+AE epoch  13 | val 0.69616
+AE epoch  14 | val 0.66568
+AE epoch  15 | val 0.63688
+AE epoch  16 | val 0.60802
+AE epoch  17 | val 0.58569
+AE epoch  18 | val 0.56273
+AE epoch  19 | val 0.54177
+AE epoch  20 | val 0.52222
+AE epoch  21 | val 0.50616
+AE epoch  22 | val 0.48812
+AE epoch  23 | val 0.47318
+AE epoch  24 | val 0.45711
+AE epoch  25 | val 0.44264
+AE epoch  26 | val 0.42955
+AE epoch  27 | val 0.41731
+AE epoch  28 | val 0.40511
+AE epoch  29 | val 0.39318
+AE epoch  30 | val 0.38231
+AE epoch  31 | val 0.37273
+AE epoch  32 | val 0.36081
+AE epoch  33 | val 0.35196
+AE epoch  34 | val 0.34380
+AE epoch  35 | val 0.33328
+AE epoch  36 | val 0.32496
+AE epoch  37 | val 0.31757
+AE epoch  38 | val 0.31346
+AE epoch  39 | val 0.30207
+AE epoch  40 | val 0.29554
+AE epoch  41 | val 0.28907
+AE epoch  42 | val 0.28228
+AE epoch  43 | val 0.27700
+AE epoch  44 | val 0.27173
+AE epoch  45 | val 0.26575
+AE epoch  46 | val 0.25953
+AE epoch  47 | val 0.25463
+AE epoch  48 | val 0.25138
+AE epoch  49 | val 0.24614
+AE epoch  50 | val 0.24226
+AE epoch  51 | val 0.23725
+AE epoch  52 | val 0.23259
+AE epoch  53 | val 0.22801
+AE epoch  54 | val 0.22585
+AE epoch  55 | val 0.22123
+AE epoch  56 | val 0.21709
+AE epoch  57 | val 0.21556
+AE epoch  58 | val 0.21024
+AE epoch  59 | val 0.20640
+AE epoch  60 | val 0.20404
+AE epoch  61 | val 0.20002
+AE epoch  62 | val 0.19771
+AE epoch  63 | val 0.19309
+AE epoch  64 | val 0.19191
+AE epoch  65 | val 0.18894
+AE epoch  66 | val 0.18556
+AE epoch  67 | val 0.18265
+AE epoch  68 | val 0.18100
+AE epoch  69 | val 0.17766
+AE epoch  70 | val 0.17661
+AE epoch  71 | val 0.17387
+AE epoch  72 | val 0.17386
+AE epoch  73 | val 0.16900
+AE epoch  74 | val 0.16669
+AE epoch  75 | val 0.16594
+AE epoch  76 | val 0.16410
+AE epoch  77 | val 0.16211
+AE epoch  78 | val 0.16242
+AE epoch  79 | val 0.15986
+AE epoch  80 | val 0.15880
+AE epoch  81 | val 0.15806
+AE epoch  82 | val 0.15512
+AE epoch  83 | val 0.15551
+AE epoch  84 | val 0.15474
+AE epoch  85 | val 0.15318
+AE epoch  86 | val 0.15235
+AE epoch  87 | val 0.15129
+AE epoch  88 | val 0.14985
+AE epoch  89 | val 0.14888
+AE epoch  90 | val 0.14946
+AE epoch  91 | val 0.14806
+AE epoch  92 | val 0.14788
+AE epoch  93 | val 0.14668
+AE epoch  94 | val 0.14493
+AE epoch  95 | val 0.14522
+AE epoch  96 | val 0.14563
+AE epoch  97 | val 0.14528
+AE epoch  98 | val 0.14274
+AE epoch  99 | val 0.14342
+AE epoch 100 | val 0.14313
+copy check: True, True, True
+epoch   1 | train 0.4481 acc 0.7852 | val 0.1577 acc 0.9568
+epoch   2 | train 0.0942 acc 0.9765 | val 0.0525 acc 0.9867
+epoch   3 | train 0.0377 acc 0.9920 | val 0.0230 acc 0.9956
+epoch   4 | train 0.0179 acc 0.9964 | val 0.0115 acc 0.9989
+epoch   5 | train 0.0101 acc 0.9986 | val 0.0071 acc 1.0000
+epoch   6 | train 0.0057 acc 0.9997 | val 0.0041 acc 1.0000
+epoch   7 | train 0.0034 acc 0.9997 | val 0.0028 acc 1.0000
+epoch   8 | train 0.0026 acc 0.9997 | val 0.0023 acc 1.0000
+epoch   9 | train 0.0017 acc 1.0000 | val 0.0016 acc 1.0000
+epoch  10 | train 0.0013 acc 1.0000 | val 0.0012 acc 1.0000
+epoch  11 | train 0.0009 acc 1.0000 | val 0.0010 acc 1.0000
+epoch  12 | train 0.0007 acc 1.0000 | val 0.0008 acc 1.0000
+epoch  13 | train 0.0006 acc 1.0000 | val 0.0007 acc 1.0000
+epoch  14 | train 0.0005 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  15 | train 0.0004 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  16 | train 0.0004 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  17 | train 0.0003 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  18 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  19 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  20 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  21 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  22 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  23 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  24 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  25 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  26 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  27 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  28 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  29 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  30 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  31 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  32 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  33 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  34 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  35 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  36 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  37 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  97 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  98 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  99 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch 100 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== pretrained, seed=69 ===
+============================================================
+AE epoch   1 | val 0.10573
+AE epoch   2 | val 0.07669
+AE epoch   3 | val 0.05824
+AE epoch   4 | val 0.04724
+AE epoch   5 | val 0.03918
+AE epoch   6 | val 0.03208
+AE epoch   7 | val 0.02623
+AE epoch   8 | val 0.02131
+AE epoch   9 | val 0.01732
+AE epoch  10 | val 0.01409
+AE epoch  11 | val 0.01130
+AE epoch  12 | val 0.00902
+AE epoch  13 | val 0.00715
+AE epoch  14 | val 0.00577
+AE epoch  15 | val 0.00470
+AE epoch  16 | val 0.00389
+AE epoch  17 | val 0.00327
+AE epoch  18 | val 0.00279
+AE epoch  19 | val 0.00241
+AE epoch  20 | val 0.00211
+AE epoch  21 | val 0.00187
+AE epoch  22 | val 0.00166
+AE epoch  23 | val 0.00148
+AE epoch  24 | val 0.00133
+AE epoch  25 | val 0.00120
+AE epoch  26 | val 0.00109
+AE epoch  27 | val 0.00101
+AE epoch  28 | val 0.00093
+AE epoch  29 | val 0.00086
+AE epoch  30 | val 0.00080
+AE epoch  31 | val 0.00074
+AE epoch  32 | val 0.00069
+AE epoch  33 | val 0.00065
+AE epoch  34 | val 0.00061
+AE epoch  35 | val 0.00057
+AE epoch  36 | val 0.00054
+AE epoch  37 | val 0.00051
+AE epoch  38 | val 0.00048
+AE epoch  39 | val 0.00045
+AE epoch  40 | val 0.00043
+AE epoch  41 | val 0.00041
+AE epoch  42 | val 0.00039
+AE epoch  43 | val 0.00038
+AE epoch  44 | val 0.00036
+AE epoch  45 | val 0.00035
+AE epoch  46 | val 0.00033
+AE epoch  47 | val 0.00032
+AE epoch  48 | val 0.00031
+AE epoch  49 | val 0.00030
+AE epoch  50 | val 0.00029
+AE epoch  51 | val 0.00028
+AE epoch  52 | val 0.00027
+AE epoch  53 | val 0.00026
+AE epoch  54 | val 0.00025
+AE epoch  55 | val 0.00024
+AE epoch  56 | val 0.00024
+AE epoch  57 | val 0.00023
+AE epoch  58 | val 0.00022
+AE epoch  59 | val 0.00022
+AE epoch  60 | val 0.00021
+AE epoch  61 | val 0.00020
+AE epoch  62 | val 0.00020
+AE epoch  63 | val 0.00019
+AE epoch  64 | val 0.00019
+AE epoch  65 | val 0.00018
+AE epoch  66 | val 0.00018
+AE epoch  67 | val 0.00018
+AE epoch  68 | val 0.00017
+AE epoch  69 | val 0.00017
+AE epoch  70 | val 0.00016
+AE epoch  71 | val 0.00016
+AE epoch  72 | val 0.00016
+AE epoch  73 | val 0.00015
+AE epoch  74 | val 0.00015
+AE epoch  75 | val 0.00015
+AE epoch  76 | val 0.00015
+AE epoch  77 | val 0.00014
+AE epoch  78 | val 0.00014
+AE epoch  79 | val 0.00014
+AE epoch  80 | val 0.00013
+AE epoch  81 | val 0.00010
+AE epoch  82 | val 0.00010
+AE epoch  83 | val 0.00009
+AE epoch  84 | val 0.00008
+AE epoch  85 | val 0.00008
+AE epoch  86 | val 0.00007
+AE epoch  87 | val 0.00007
+AE epoch  88 | val 0.00007
+AE epoch  89 | val 0.00007
+AE epoch  90 | val 0.00006
+AE epoch  91 | val 0.00006
+AE epoch  92 | val 0.00006
+AE epoch  93 | val 0.00006
+AE epoch  94 | val 0.00006
+AE epoch  95 | val 0.00005
+AE epoch  96 | val 0.00005
+AE epoch  97 | val 0.00005
+AE epoch  98 | val 0.00005
+AE epoch  99 | val 0.00005
+AE epoch 100 | val 0.00005
+AE epoch   1 | val 1.12583
+AE epoch   2 | val 0.86634
+AE epoch   3 | val 0.63290
+AE epoch   4 | val 0.50039
+AE epoch   5 | val 0.44099
+AE epoch   6 | val 0.39214
+AE epoch   7 | val 0.34653
+AE epoch   8 | val 0.30551
+AE epoch   9 | val 0.26945
+AE epoch  10 | val 0.23958
+AE epoch  11 | val 0.21491
+AE epoch  12 | val 0.19422
+AE epoch  13 | val 0.17635
+AE epoch  14 | val 0.16071
+AE epoch  15 | val 0.14662
+AE epoch  16 | val 0.13414
+AE epoch  17 | val 0.12324
+AE epoch  18 | val 0.11284
+AE epoch  19 | val 0.10378
+AE epoch  20 | val 0.09562
+AE epoch  21 | val 0.08880
+AE epoch  22 | val 0.08182
+AE epoch  23 | val 0.07658
+AE epoch  24 | val 0.07232
+AE epoch  25 | val 0.06731
+AE epoch  26 | val 0.06381
+AE epoch  27 | val 0.05996
+AE epoch  28 | val 0.05730
+AE epoch  29 | val 0.05398
+AE epoch  30 | val 0.05173
+AE epoch  31 | val 0.04947
+AE epoch  32 | val 0.04728
+AE epoch  33 | val 0.04487
+AE epoch  34 | val 0.04271
+AE epoch  35 | val 0.04059
+AE epoch  36 | val 0.03866
+AE epoch  37 | val 0.03694
+AE epoch  38 | val 0.03556
+AE epoch  39 | val 0.03395
+AE epoch  40 | val 0.03208
+AE epoch  41 | val 0.03113
+AE epoch  42 | val 0.02994
+AE epoch  43 | val 0.02872
+AE epoch  44 | val 0.02754
+AE epoch  45 | val 0.02632
+AE epoch  46 | val 0.02548
+AE epoch  47 | val 0.02463
+AE epoch  48 | val 0.02369
+AE epoch  49 | val 0.02283
+AE epoch  50 | val 0.02254
+AE epoch  51 | val 0.02120
+AE epoch  52 | val 0.02033
+AE epoch  53 | val 0.01968
+AE epoch  54 | val 0.01916
+AE epoch  55 | val 0.01855
+AE epoch  56 | val 0.01792
+AE epoch  57 | val 0.01714
+AE epoch  58 | val 0.01669
+AE epoch  59 | val 0.01601
+AE epoch  60 | val 0.01563
+AE epoch  61 | val 0.01481
+AE epoch  62 | val 0.01460
+AE epoch  63 | val 0.01411
+AE epoch  64 | val 0.01380
+AE epoch  65 | val 0.01320
+AE epoch  66 | val 0.01287
+AE epoch  67 | val 0.01263
+AE epoch  68 | val 0.01243
+AE epoch  69 | val 0.01213
+AE epoch  70 | val 0.01179
+AE epoch  71 | val 0.01147
+AE epoch  72 | val 0.01111
+AE epoch  73 | val 0.01086
+AE epoch  74 | val 0.01073
+AE epoch  75 | val 0.01063
+AE epoch  76 | val 0.01061
+AE epoch  77 | val 0.01010
+AE epoch  78 | val 0.00996
+AE epoch  79 | val 0.00981
+AE epoch  80 | val 0.00961
+AE epoch  81 | val 0.00951
+AE epoch  82 | val 0.00956
+AE epoch  83 | val 0.00926
+AE epoch  84 | val 0.00913
+AE epoch  85 | val 0.00894
+AE epoch  86 | val 0.00892
+AE epoch  87 | val 0.00883
+AE epoch  88 | val 0.00884
+AE epoch  89 | val 0.00874
+AE epoch  90 | val 0.00841
+AE epoch  91 | val 0.00845
+AE epoch  92 | val 0.00830
+AE epoch  93 | val 0.00823
+AE epoch  94 | val 0.00823
+AE epoch  95 | val 0.00804
+AE epoch  96 | val 0.00798
+AE epoch  97 | val 0.00777
+AE epoch  98 | val 0.00782
+AE epoch  99 | val 0.00776
+AE epoch 100 | val 0.00788
+AE epoch   1 | val 6.03591
+AE epoch   2 | val 2.00960
+AE epoch   3 | val 1.72036
+AE epoch   4 | val 1.67476
+AE epoch   5 | val 1.62427
+AE epoch   6 | val 1.55903
+AE epoch   7 | val 1.48799
+AE epoch   8 | val 1.42006
+AE epoch   9 | val 1.36729
+AE epoch  10 | val 1.32606
+AE epoch  11 | val 1.28740
+AE epoch  12 | val 1.25210
+AE epoch  13 | val 1.21353
+AE epoch  14 | val 1.17013
+AE epoch  15 | val 1.12292
+AE epoch  16 | val 1.07228
+AE epoch  17 | val 1.01710
+AE epoch  18 | val 0.96391
+AE epoch  19 | val 0.89858
+AE epoch  20 | val 0.84409
+AE epoch  21 | val 0.80325
+AE epoch  22 | val 0.77034
+AE epoch  23 | val 0.74265
+AE epoch  24 | val 0.71967
+AE epoch  25 | val 0.69794
+AE epoch  26 | val 0.68016
+AE epoch  27 | val 0.66416
+AE epoch  28 | val 0.64953
+AE epoch  29 | val 0.63500
+AE epoch  30 | val 0.61796
+AE epoch  31 | val 0.60309
+AE epoch  32 | val 0.58444
+AE epoch  33 | val 0.56841
+AE epoch  34 | val 0.55366
+AE epoch  35 | val 0.53831
+AE epoch  36 | val 0.52413
+AE epoch  37 | val 0.51273
+AE epoch  38 | val 0.50116
+AE epoch  39 | val 0.48815
+AE epoch  40 | val 0.47669
+AE epoch  41 | val 0.46687
+AE epoch  42 | val 0.45676
+AE epoch  43 | val 0.44644
+AE epoch  44 | val 0.43491
+AE epoch  45 | val 0.42475
+AE epoch  46 | val 0.41566
+AE epoch  47 | val 0.40571
+AE epoch  48 | val 0.39698
+AE epoch  49 | val 0.39062
+AE epoch  50 | val 0.38020
+AE epoch  51 | val 0.37368
+AE epoch  52 | val 0.36656
+AE epoch  53 | val 0.36052
+AE epoch  54 | val 0.35500
+AE epoch  55 | val 0.34997
+AE epoch  56 | val 0.34573
+AE epoch  57 | val 0.33992
+AE epoch  58 | val 0.33599
+AE epoch  59 | val 0.33151
+AE epoch  60 | val 0.32763
+AE epoch  61 | val 0.32366
+AE epoch  62 | val 0.31943
+AE epoch  63 | val 0.31624
+AE epoch  64 | val 0.31201
+AE epoch  65 | val 0.30869
+AE epoch  66 | val 0.30510
+AE epoch  67 | val 0.30274
+AE epoch  68 | val 0.29984
+AE epoch  69 | val 0.29691
+AE epoch  70 | val 0.29474
+AE epoch  71 | val 0.29073
+AE epoch  72 | val 0.28969
+AE epoch  73 | val 0.28632
+AE epoch  74 | val 0.28423
+AE epoch  75 | val 0.28245
+AE epoch  76 | val 0.27977
+AE epoch  77 | val 0.27913
+AE epoch  78 | val 0.27587
+AE epoch  79 | val 0.27508
+AE epoch  80 | val 0.27296
+AE epoch  81 | val 0.27136
+AE epoch  82 | val 0.27030
+AE epoch  83 | val 0.26936
+AE epoch  84 | val 0.26852
+AE epoch  85 | val 0.26656
+AE epoch  86 | val 0.26618
+AE epoch  87 | val 0.26529
+AE epoch  88 | val 0.26361
+AE epoch  89 | val 0.26217
+AE epoch  90 | val 0.26251
+AE epoch  91 | val 0.26066
+AE epoch  92 | val 0.25957
+AE epoch  93 | val 0.25845
+AE epoch  94 | val 0.25879
+AE epoch  95 | val 0.25852
+AE epoch  96 | val 0.25742
+AE epoch  97 | val 0.25660
+AE epoch  98 | val 0.25657
+AE epoch  99 | val 0.25593
+AE epoch 100 | val 0.25501
+epoch   1 | train 0.5089 acc 0.7721 | val 0.2491 acc 0.8915
+epoch   2 | train 0.1448 acc 0.9563 | val 0.0721 acc 0.9945
+epoch   3 | train 0.0459 acc 0.9934 | val 0.0265 acc 0.9989
+epoch   4 | train 0.0207 acc 0.9975 | val 0.0142 acc 0.9989
+epoch   5 | train 0.0108 acc 0.9986 | val 0.0081 acc 0.9989
+epoch   6 | train 0.0061 acc 0.9997 | val 0.0049 acc 1.0000
+epoch   7 | train 0.0035 acc 1.0000 | val 0.0030 acc 1.0000
+epoch   8 | train 0.0022 acc 1.0000 | val 0.0021 acc 1.0000
+epoch   9 | train 0.0015 acc 1.0000 | val 0.0015 acc 1.0000
+epoch  10 | train 0.0011 acc 1.0000 | val 0.0012 acc 1.0000
+epoch  11 | train 0.0009 acc 1.0000 | val 0.0009 acc 1.0000
+epoch  12 | train 0.0006 acc 1.0000 | val 0.0008 acc 1.0000
+epoch  13 | train 0.0005 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  14 | train 0.0004 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  15 | train 0.0004 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  16 | train 0.0003 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  17 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  18 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  19 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  20 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  21 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  22 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  23 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  24 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  25 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  26 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  27 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  28 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  29 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  30 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  31 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  32 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  33 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  97 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  98 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  99 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch 100 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== pretrained, seed=123 ===
+============================================================
+AE epoch   1 | val 0.10407
+AE epoch   2 | val 0.07425
+AE epoch   3 | val 0.05646
+AE epoch   4 | val 0.04640
+AE epoch   5 | val 0.03850
+AE epoch   6 | val 0.03144
+AE epoch   7 | val 0.02538
+AE epoch   8 | val 0.02039
+AE epoch   9 | val 0.01641
+AE epoch  10 | val 0.01305
+AE epoch  11 | val 0.01039
+AE epoch  12 | val 0.00833
+AE epoch  13 | val 0.00673
+AE epoch  14 | val 0.00550
+AE epoch  15 | val 0.00451
+AE epoch  16 | val 0.00376
+AE epoch  17 | val 0.00316
+AE epoch  18 | val 0.00271
+AE epoch  19 | val 0.00235
+AE epoch  20 | val 0.00205
+AE epoch  21 | val 0.00181
+AE epoch  22 | val 0.00162
+AE epoch  23 | val 0.00145
+AE epoch  24 | val 0.00130
+AE epoch  25 | val 0.00118
+AE epoch  26 | val 0.00107
+AE epoch  27 | val 0.00097
+AE epoch  28 | val 0.00090
+AE epoch  29 | val 0.00082
+AE epoch  30 | val 0.00076
+AE epoch  31 | val 0.00071
+AE epoch  32 | val 0.00066
+AE epoch  33 | val 0.00061
+AE epoch  34 | val 0.00057
+AE epoch  35 | val 0.00052
+AE epoch  36 | val 0.00049
+AE epoch  37 | val 0.00046
+AE epoch  38 | val 0.00043
+AE epoch  39 | val 0.00040
+AE epoch  40 | val 0.00038
+AE epoch  41 | val 0.00036
+AE epoch  42 | val 0.00034
+AE epoch  43 | val 0.00032
+AE epoch  44 | val 0.00030
+AE epoch  45 | val 0.00028
+AE epoch  46 | val 0.00027
+AE epoch  47 | val 0.00026
+AE epoch  48 | val 0.00025
+AE epoch  49 | val 0.00023
+AE epoch  50 | val 0.00022
+AE epoch  51 | val 0.00021
+AE epoch  52 | val 0.00020
+AE epoch  53 | val 0.00019
+AE epoch  54 | val 0.00019
+AE epoch  55 | val 0.00018
+AE epoch  56 | val 0.00017
+AE epoch  57 | val 0.00016
+AE epoch  58 | val 0.00016
+AE epoch  59 | val 0.00015
+AE epoch  60 | val 0.00014
+AE epoch  61 | val 0.00014
+AE epoch  62 | val 0.00013
+AE epoch  63 | val 0.00013
+AE epoch  64 | val 0.00012
+AE epoch  65 | val 0.00012
+AE epoch  66 | val 0.00012
+AE epoch  67 | val 0.00011
+AE epoch  68 | val 0.00011
+AE epoch  69 | val 0.00010
+AE epoch  70 | val 0.00010
+AE epoch  71 | val 0.00010
+AE epoch  72 | val 0.00009
+AE epoch  73 | val 0.00009
+AE epoch  74 | val 0.00009
+AE epoch  75 | val 0.00009
+AE epoch  76 | val 0.00008
+AE epoch  77 | val 0.00008
+AE epoch  78 | val 0.00008
+AE epoch  79 | val 0.00008
+AE epoch  80 | val 0.00007
+AE epoch  81 | val 0.00007
+AE epoch  82 | val 0.00007
+AE epoch  83 | val 0.00007
+AE epoch  84 | val 0.00007
+AE epoch  85 | val 0.00006
+AE epoch  86 | val 0.00006
+AE epoch  87 | val 0.00006
+AE epoch  88 | val 0.00006
+AE epoch  89 | val 0.00006
+AE epoch  90 | val 0.00005
+AE epoch  91 | val 0.00005
+AE epoch  92 | val 0.00005
+AE epoch  93 | val 0.00005
+AE epoch  94 | val 0.00005
+AE epoch  95 | val 0.00005
+AE epoch  96 | val 0.00005
+AE epoch  97 | val 0.00005
+AE epoch  98 | val 0.00004
+AE epoch  99 | val 0.00004
+AE epoch 100 | val 0.00004
+AE epoch   1 | val 1.08656
+AE epoch   2 | val 0.85747
+AE epoch   3 | val 0.65371
+AE epoch   4 | val 0.53354
+AE epoch   5 | val 0.45911
+AE epoch   6 | val 0.41154
+AE epoch   7 | val 0.37542
+AE epoch   8 | val 0.34129
+AE epoch   9 | val 0.30856
+AE epoch  10 | val 0.27868
+AE epoch  11 | val 0.25023
+AE epoch  12 | val 0.22450
+AE epoch  13 | val 0.20278
+AE epoch  14 | val 0.18431
+AE epoch  15 | val 0.16775
+AE epoch  16 | val 0.15479
+AE epoch  17 | val 0.14280
+AE epoch  18 | val 0.13228
+AE epoch  19 | val 0.12331
+AE epoch  20 | val 0.11527
+AE epoch  21 | val 0.10727
+AE epoch  22 | val 0.10038
+AE epoch  23 | val 0.09387
+AE epoch  24 | val 0.08796
+AE epoch  25 | val 0.08119
+AE epoch  26 | val 0.07487
+AE epoch  27 | val 0.06972
+AE epoch  28 | val 0.06473
+AE epoch  29 | val 0.06038
+AE epoch  30 | val 0.05617
+AE epoch  31 | val 0.05241
+AE epoch  32 | val 0.04901
+AE epoch  33 | val 0.04610
+AE epoch  34 | val 0.04313
+AE epoch  35 | val 0.04063
+AE epoch  36 | val 0.03843
+AE epoch  37 | val 0.03662
+AE epoch  38 | val 0.03496
+AE epoch  39 | val 0.03320
+AE epoch  40 | val 0.03148
+AE epoch  41 | val 0.03045
+AE epoch  42 | val 0.02867
+AE epoch  43 | val 0.02735
+AE epoch  44 | val 0.02631
+AE epoch  45 | val 0.02507
+AE epoch  46 | val 0.02396
+AE epoch  47 | val 0.02300
+AE epoch  48 | val 0.02214
+AE epoch  49 | val 0.02143
+AE epoch  50 | val 0.02061
+AE epoch  51 | val 0.01990
+AE epoch  52 | val 0.01938
+AE epoch  53 | val 0.01856
+AE epoch  54 | val 0.01816
+AE epoch  55 | val 0.01751
+AE epoch  56 | val 0.01710
+AE epoch  57 | val 0.01670
+AE epoch  58 | val 0.01629
+AE epoch  59 | val 0.01599
+AE epoch  60 | val 0.01552
+AE epoch  61 | val 0.01521
+AE epoch  62 | val 0.01495
+AE epoch  63 | val 0.01453
+AE epoch  64 | val 0.01417
+AE epoch  65 | val 0.01389
+AE epoch  66 | val 0.01391
+AE epoch  67 | val 0.01362
+AE epoch  68 | val 0.01329
+AE epoch  69 | val 0.01303
+AE epoch  70 | val 0.01283
+AE epoch  71 | val 0.01303
+AE epoch  72 | val 0.01238
+AE epoch  73 | val 0.01216
+AE epoch  74 | val 0.01203
+AE epoch  75 | val 0.01205
+AE epoch  76 | val 0.01173
+AE epoch  77 | val 0.01156
+AE epoch  78 | val 0.01134
+AE epoch  79 | val 0.01122
+AE epoch  80 | val 0.01113
+AE epoch  81 | val 0.01084
+AE epoch  82 | val 0.01080
+AE epoch  83 | val 0.01057
+AE epoch  84 | val 0.01037
+AE epoch  85 | val 0.01033
+AE epoch  86 | val 0.01024
+AE epoch  87 | val 0.01018
+AE epoch  88 | val 0.00994
+AE epoch  89 | val 0.00966
+AE epoch  90 | val 0.00963
+AE epoch  91 | val 0.00965
+AE epoch  92 | val 0.00945
+AE epoch  93 | val 0.00929
+AE epoch  94 | val 0.00910
+AE epoch  95 | val 0.00917
+AE epoch  96 | val 0.00901
+AE epoch  97 | val 0.00903
+AE epoch  98 | val 0.00872
+AE epoch  99 | val 0.00845
+AE epoch 100 | val 0.00841
+AE epoch   1 | val 4.89070
+AE epoch   2 | val 1.75229
+AE epoch   3 | val 1.53994
+AE epoch   4 | val 1.46012
+AE epoch   5 | val 1.36594
+AE epoch   6 | val 1.26728
+AE epoch   7 | val 1.15827
+AE epoch   8 | val 1.04762
+AE epoch   9 | val 0.94005
+AE epoch  10 | val 0.85666
+AE epoch  11 | val 0.79512
+AE epoch  12 | val 0.75326
+AE epoch  13 | val 0.72527
+AE epoch  14 | val 0.69874
+AE epoch  15 | val 0.67678
+AE epoch  16 | val 0.65582
+AE epoch  17 | val 0.63689
+AE epoch  18 | val 0.61725
+AE epoch  19 | val 0.59490
+AE epoch  20 | val 0.57202
+AE epoch  21 | val 0.55135
+AE epoch  22 | val 0.52972
+AE epoch  23 | val 0.50839
+AE epoch  24 | val 0.48740
+AE epoch  25 | val 0.46831
+AE epoch  26 | val 0.44921
+AE epoch  27 | val 0.43061
+AE epoch  28 | val 0.41235
+AE epoch  29 | val 0.39395
+AE epoch  30 | val 0.37514
+AE epoch  31 | val 0.35780
+AE epoch  32 | val 0.34096
+AE epoch  33 | val 0.32687
+AE epoch  34 | val 0.31593
+AE epoch  35 | val 0.30305
+AE epoch  36 | val 0.29378
+AE epoch  37 | val 0.28353
+AE epoch  38 | val 0.27638
+AE epoch  39 | val 0.26710
+AE epoch  40 | val 0.26020
+AE epoch  41 | val 0.25214
+AE epoch  42 | val 0.24708
+AE epoch  43 | val 0.23953
+AE epoch  44 | val 0.23233
+AE epoch  45 | val 0.22676
+AE epoch  46 | val 0.22098
+AE epoch  47 | val 0.21660
+AE epoch  48 | val 0.21016
+AE epoch  49 | val 0.20547
+AE epoch  50 | val 0.20008
+AE epoch  51 | val 0.19575
+AE epoch  52 | val 0.19148
+AE epoch  53 | val 0.18593
+AE epoch  54 | val 0.18211
+AE epoch  55 | val 0.17882
+AE epoch  56 | val 0.17384
+AE epoch  57 | val 0.17012
+AE epoch  58 | val 0.16648
+AE epoch  59 | val 0.16276
+AE epoch  60 | val 0.16006
+AE epoch  61 | val 0.15579
+AE epoch  62 | val 0.15283
+AE epoch  63 | val 0.15082
+AE epoch  64 | val 0.14902
+AE epoch  65 | val 0.14574
+AE epoch  66 | val 0.14322
+AE epoch  67 | val 0.14111
+AE epoch  68 | val 0.13901
+AE epoch  69 | val 0.13628
+AE epoch  70 | val 0.13528
+AE epoch  71 | val 0.13309
+AE epoch  72 | val 0.13272
+AE epoch  73 | val 0.12983
+AE epoch  74 | val 0.12806
+AE epoch  75 | val 0.12670
+AE epoch  76 | val 0.12647
+AE epoch  77 | val 0.12444
+AE epoch  78 | val 0.12291
+AE epoch  79 | val 0.12208
+AE epoch  80 | val 0.12139
+AE epoch  81 | val 0.12094
+AE epoch  82 | val 0.11931
+AE epoch  83 | val 0.11914
+AE epoch  84 | val 0.11988
+AE epoch  85 | val 0.11741
+AE epoch  86 | val 0.11658
+AE epoch  87 | val 0.11581
+AE epoch  88 | val 0.11432
+AE epoch  89 | val 0.11437
+AE epoch  90 | val 0.11411
+AE epoch  91 | val 0.11264
+AE epoch  92 | val 0.11315
+AE epoch  93 | val 0.11209
+AE epoch  94 | val 0.11316
+AE epoch  95 | val 0.11172
+AE epoch  96 | val 0.10992
+AE epoch  97 | val 0.10957
+AE epoch  98 | val 0.10879
+AE epoch  99 | val 0.10913
+AE epoch 100 | val 0.10790
+epoch   1 | train 0.8448 acc 0.6788 | val 0.2621 acc 0.9125
+epoch   2 | train 0.1925 acc 0.9391 | val 0.1115 acc 0.9790
+epoch   3 | train 0.0833 acc 0.9867 | val 0.0529 acc 0.9956
+epoch   4 | train 0.0425 acc 0.9956 | val 0.0283 acc 0.9989
+epoch   5 | train 0.0252 acc 0.9967 | val 0.0177 acc 0.9989
+epoch   6 | train 0.0162 acc 0.9975 | val 0.0118 acc 0.9989
+epoch   7 | train 0.0107 acc 0.9983 | val 0.0084 acc 0.9989
+epoch   8 | train 0.0069 acc 0.9994 | val 0.0061 acc 0.9989
+epoch   9 | train 0.0046 acc 0.9997 | val 0.0045 acc 1.0000
+epoch  10 | train 0.0033 acc 1.0000 | val 0.0036 acc 1.0000
+epoch  11 | train 0.0025 acc 1.0000 | val 0.0027 acc 1.0000
+epoch  12 | train 0.0020 acc 1.0000 | val 0.0022 acc 1.0000
+epoch  13 | train 0.0015 acc 1.0000 | val 0.0018 acc 1.0000
+epoch  14 | train 0.0013 acc 1.0000 | val 0.0016 acc 1.0000
+epoch  15 | train 0.0010 acc 1.0000 | val 0.0014 acc 1.0000
+epoch  16 | train 0.0009 acc 1.0000 | val 0.0011 acc 1.0000
+epoch  17 | train 0.0008 acc 1.0000 | val 0.0010 acc 1.0000
+epoch  18 | train 0.0006 acc 1.0000 | val 0.0009 acc 1.0000
+epoch  19 | train 0.0006 acc 1.0000 | val 0.0008 acc 1.0000
+epoch  20 | train 0.0005 acc 1.0000 | val 0.0007 acc 1.0000
+epoch  21 | train 0.0004 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  22 | train 0.0004 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  23 | train 0.0004 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  24 | train 0.0003 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  25 | train 0.0003 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  26 | train 0.0003 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  27 | train 0.0002 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  28 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  29 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  30 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  31 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  32 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  33 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  34 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  35 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  36 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  37 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  38 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  39 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  40 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  41 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  42 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  43 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  44 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  45 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  46 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  47 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  48 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  49 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  50 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  51 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  52 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  53 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  97 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  98 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  99 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch 100 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== pretrained, seed=456 ===
+============================================================
+AE epoch   1 | val 0.10654
+AE epoch   2 | val 0.07537
+AE epoch   3 | val 0.05707
+AE epoch   4 | val 0.04673
+AE epoch   5 | val 0.03844
+AE epoch   6 | val 0.03124
+AE epoch   7 | val 0.02541
+AE epoch   8 | val 0.02058
+AE epoch   9 | val 0.01667
+AE epoch  10 | val 0.01341
+AE epoch  11 | val 0.01077
+AE epoch  12 | val 0.00870
+AE epoch  13 | val 0.00710
+AE epoch  14 | val 0.00578
+AE epoch  15 | val 0.00478
+AE epoch  16 | val 0.00404
+AE epoch  17 | val 0.00345
+AE epoch  18 | val 0.00299
+AE epoch  19 | val 0.00263
+AE epoch  20 | val 0.00233
+AE epoch  21 | val 0.00209
+AE epoch  22 | val 0.00188
+AE epoch  23 | val 0.00171
+AE epoch  24 | val 0.00155
+AE epoch  25 | val 0.00142
+AE epoch  26 | val 0.00129
+AE epoch  27 | val 0.00119
+AE epoch  28 | val 0.00110
+AE epoch  29 | val 0.00100
+AE epoch  30 | val 0.00094
+AE epoch  31 | val 0.00087
+AE epoch  32 | val 0.00081
+AE epoch  33 | val 0.00077
+AE epoch  34 | val 0.00072
+AE epoch  35 | val 0.00068
+AE epoch  36 | val 0.00064
+AE epoch  37 | val 0.00059
+AE epoch  38 | val 0.00053
+AE epoch  39 | val 0.00047
+AE epoch  40 | val 0.00043
+AE epoch  41 | val 0.00040
+AE epoch  42 | val 0.00037
+AE epoch  43 | val 0.00035
+AE epoch  44 | val 0.00033
+AE epoch  45 | val 0.00031
+AE epoch  46 | val 0.00030
+AE epoch  47 | val 0.00028
+AE epoch  48 | val 0.00027
+AE epoch  49 | val 0.00025
+AE epoch  50 | val 0.00024
+AE epoch  51 | val 0.00023
+AE epoch  52 | val 0.00022
+AE epoch  53 | val 0.00021
+AE epoch  54 | val 0.00020
+AE epoch  55 | val 0.00019
+AE epoch  56 | val 0.00018
+AE epoch  57 | val 0.00017
+AE epoch  58 | val 0.00017
+AE epoch  59 | val 0.00016
+AE epoch  60 | val 0.00015
+AE epoch  61 | val 0.00015
+AE epoch  62 | val 0.00014
+AE epoch  63 | val 0.00014
+AE epoch  64 | val 0.00013
+AE epoch  65 | val 0.00013
+AE epoch  66 | val 0.00012
+AE epoch  67 | val 0.00012
+AE epoch  68 | val 0.00011
+AE epoch  69 | val 0.00011
+AE epoch  70 | val 0.00011
+AE epoch  71 | val 0.00010
+AE epoch  72 | val 0.00010
+AE epoch  73 | val 0.00010
+AE epoch  74 | val 0.00009
+AE epoch  75 | val 0.00009
+AE epoch  76 | val 0.00009
+AE epoch  77 | val 0.00009
+AE epoch  78 | val 0.00008
+AE epoch  79 | val 0.00008
+AE epoch  80 | val 0.00008
+AE epoch  81 | val 0.00008
+AE epoch  82 | val 0.00007
+AE epoch  83 | val 0.00007
+AE epoch  84 | val 0.00007
+AE epoch  85 | val 0.00007
+AE epoch  86 | val 0.00007
+AE epoch  87 | val 0.00006
+AE epoch  88 | val 0.00006
+AE epoch  89 | val 0.00006
+AE epoch  90 | val 0.00006
+AE epoch  91 | val 0.00006
+AE epoch  92 | val 0.00006
+AE epoch  93 | val 0.00005
+AE epoch  94 | val 0.00005
+AE epoch  95 | val 0.00005
+AE epoch  96 | val 0.00005
+AE epoch  97 | val 0.00005
+AE epoch  98 | val 0.00005
+AE epoch  99 | val 0.00005
+AE epoch 100 | val 0.00005
+AE epoch   1 | val 1.13338
+AE epoch   2 | val 0.89369
+AE epoch   3 | val 0.70403
+AE epoch   4 | val 0.56315
+AE epoch   5 | val 0.48103
+AE epoch   6 | val 0.42971
+AE epoch   7 | val 0.38988
+AE epoch   8 | val 0.35454
+AE epoch   9 | val 0.32097
+AE epoch  10 | val 0.28813
+AE epoch  11 | val 0.25834
+AE epoch  12 | val 0.23304
+AE epoch  13 | val 0.21173
+AE epoch  14 | val 0.19373
+AE epoch  15 | val 0.17526
+AE epoch  16 | val 0.16015
+AE epoch  17 | val 0.14609
+AE epoch  18 | val 0.13284
+AE epoch  19 | val 0.12231
+AE epoch  20 | val 0.11260
+AE epoch  21 | val 0.10314
+AE epoch  22 | val 0.09592
+AE epoch  23 | val 0.08809
+AE epoch  24 | val 0.08138
+AE epoch  25 | val 0.07631
+AE epoch  26 | val 0.07099
+AE epoch  27 | val 0.06591
+AE epoch  28 | val 0.06198
+AE epoch  29 | val 0.05842
+AE epoch  30 | val 0.05475
+AE epoch  31 | val 0.05135
+AE epoch  32 | val 0.04841
+AE epoch  33 | val 0.04559
+AE epoch  34 | val 0.04310
+AE epoch  35 | val 0.04101
+AE epoch  36 | val 0.03890
+AE epoch  37 | val 0.03706
+AE epoch  38 | val 0.03536
+AE epoch  39 | val 0.03408
+AE epoch  40 | val 0.03238
+AE epoch  41 | val 0.03086
+AE epoch  42 | val 0.02986
+AE epoch  43 | val 0.02872
+AE epoch  44 | val 0.02738
+AE epoch  45 | val 0.02647
+AE epoch  46 | val 0.02535
+AE epoch  47 | val 0.02465
+AE epoch  48 | val 0.02364
+AE epoch  49 | val 0.02277
+AE epoch  50 | val 0.02203
+AE epoch  51 | val 0.02138
+AE epoch  52 | val 0.02072
+AE epoch  53 | val 0.01999
+AE epoch  54 | val 0.01956
+AE epoch  55 | val 0.01893
+AE epoch  56 | val 0.01853
+AE epoch  57 | val 0.01783
+AE epoch  58 | val 0.01734
+AE epoch  59 | val 0.01692
+AE epoch  60 | val 0.01644
+AE epoch  61 | val 0.01608
+AE epoch  62 | val 0.01571
+AE epoch  63 | val 0.01540
+AE epoch  64 | val 0.01516
+AE epoch  65 | val 0.01491
+AE epoch  66 | val 0.01463
+AE epoch  67 | val 0.01424
+AE epoch  68 | val 0.01388
+AE epoch  69 | val 0.01363
+AE epoch  70 | val 0.01349
+AE epoch  71 | val 0.01368
+AE epoch  72 | val 0.01298
+AE epoch  73 | val 0.01295
+AE epoch  74 | val 0.01266
+AE epoch  75 | val 0.01231
+AE epoch  76 | val 0.01215
+AE epoch  77 | val 0.01203
+AE epoch  78 | val 0.01193
+AE epoch  79 | val 0.01177
+AE epoch  80 | val 0.01148
+AE epoch  81 | val 0.01135
+AE epoch  82 | val 0.01140
+AE epoch  83 | val 0.01105
+AE epoch  84 | val 0.01080
+AE epoch  85 | val 0.01084
+AE epoch  86 | val 0.01077
+AE epoch  87 | val 0.01046
+AE epoch  88 | val 0.01016
+AE epoch  89 | val 0.01009
+AE epoch  90 | val 0.01000
+AE epoch  91 | val 0.00990
+AE epoch  92 | val 0.00981
+AE epoch  93 | val 0.00986
+AE epoch  94 | val 0.00966
+AE epoch  95 | val 0.00951
+AE epoch  96 | val 0.00948
+AE epoch  97 | val 0.00927
+AE epoch  98 | val 0.00920
+AE epoch  99 | val 0.00903
+AE epoch 100 | val 0.00907
+AE epoch   1 | val 3.83746
+AE epoch   2 | val 1.80584
+AE epoch   3 | val 1.72346
+AE epoch   4 | val 1.66033
+AE epoch   5 | val 1.59241
+AE epoch   6 | val 1.50683
+AE epoch   7 | val 1.40970
+AE epoch   8 | val 1.29797
+AE epoch   9 | val 1.18629
+AE epoch  10 | val 1.07978
+AE epoch  11 | val 0.98724
+AE epoch  12 | val 0.90409
+AE epoch  13 | val 0.83541
+AE epoch  14 | val 0.78170
+AE epoch  15 | val 0.73491
+AE epoch  16 | val 0.69842
+AE epoch  17 | val 0.66823
+AE epoch  18 | val 0.63766
+AE epoch  19 | val 0.61108
+AE epoch  20 | val 0.58552
+AE epoch  21 | val 0.56198
+AE epoch  22 | val 0.54020
+AE epoch  23 | val 0.51929
+AE epoch  24 | val 0.50154
+AE epoch  25 | val 0.48191
+AE epoch  26 | val 0.46494
+AE epoch  27 | val 0.44905
+AE epoch  28 | val 0.43342
+AE epoch  29 | val 0.41882
+AE epoch  30 | val 0.40644
+AE epoch  31 | val 0.39337
+AE epoch  32 | val 0.38109
+AE epoch  33 | val 0.37098
+AE epoch  34 | val 0.36158
+AE epoch  35 | val 0.34884
+AE epoch  36 | val 0.34153
+AE epoch  37 | val 0.33282
+AE epoch  38 | val 0.32301
+AE epoch  39 | val 0.31611
+AE epoch  40 | val 0.30718
+AE epoch  41 | val 0.30228
+AE epoch  42 | val 0.29523
+AE epoch  43 | val 0.28751
+AE epoch  44 | val 0.28266
+AE epoch  45 | val 0.27587
+AE epoch  46 | val 0.27148
+AE epoch  47 | val 0.26618
+AE epoch  48 | val 0.26260
+AE epoch  49 | val 0.25657
+AE epoch  50 | val 0.25176
+AE epoch  51 | val 0.24916
+AE epoch  52 | val 0.24429
+AE epoch  53 | val 0.24079
+AE epoch  54 | val 0.23799
+AE epoch  55 | val 0.23471
+AE epoch  56 | val 0.23110
+AE epoch  57 | val 0.22780
+AE epoch  58 | val 0.22455
+AE epoch  59 | val 0.21996
+AE epoch  60 | val 0.21709
+AE epoch  61 | val 0.21492
+AE epoch  62 | val 0.21129
+AE epoch  63 | val 0.20796
+AE epoch  64 | val 0.20561
+AE epoch  65 | val 0.20289
+AE epoch  66 | val 0.20041
+AE epoch  67 | val 0.19823
+AE epoch  68 | val 0.19518
+AE epoch  69 | val 0.19261
+AE epoch  70 | val 0.18981
+AE epoch  71 | val 0.18800
+AE epoch  72 | val 0.18652
+AE epoch  73 | val 0.18241
+AE epoch  74 | val 0.18045
+AE epoch  75 | val 0.17932
+AE epoch  76 | val 0.17729
+AE epoch  77 | val 0.17457
+AE epoch  78 | val 0.17359
+AE epoch  79 | val 0.17207
+AE epoch  80 | val 0.16876
+AE epoch  81 | val 0.16949
+AE epoch  82 | val 0.16658
+AE epoch  83 | val 0.16470
+AE epoch  84 | val 0.16284
+AE epoch  85 | val 0.16240
+AE epoch  86 | val 0.16084
+AE epoch  87 | val 0.15998
+AE epoch  88 | val 0.15907
+AE epoch  89 | val 0.15708
+AE epoch  90 | val 0.15598
+AE epoch  91 | val 0.15499
+AE epoch  92 | val 0.15534
+AE epoch  93 | val 0.15306
+AE epoch  94 | val 0.15174
+AE epoch  95 | val 0.15190
+AE epoch  96 | val 0.14976
+AE epoch  97 | val 0.14931
+AE epoch  98 | val 0.14857
+AE epoch  99 | val 0.14778
+AE epoch 100 | val 0.14664
+epoch   1 | train 0.5453 acc 0.7852 | val 0.2378 acc 0.9258
+epoch   2 | train 0.1596 acc 0.9482 | val 0.0946 acc 0.9812
+epoch   3 | train 0.0745 acc 0.9864 | val 0.0523 acc 0.9922
+epoch   4 | train 0.0409 acc 0.9928 | val 0.0283 acc 0.9967
+epoch   5 | train 0.0228 acc 0.9970 | val 0.0179 acc 0.9978
+epoch   6 | train 0.0131 acc 0.9994 | val 0.0115 acc 0.9989
+epoch   7 | train 0.0081 acc 0.9997 | val 0.0063 acc 1.0000
+epoch   8 | train 0.0042 acc 1.0000 | val 0.0035 acc 1.0000
+epoch   9 | train 0.0024 acc 1.0000 | val 0.0022 acc 1.0000
+epoch  10 | train 0.0015 acc 1.0000 | val 0.0015 acc 1.0000
+epoch  11 | train 0.0010 acc 1.0000 | val 0.0011 acc 1.0000
+epoch  12 | train 0.0007 acc 1.0000 | val 0.0009 acc 1.0000
+epoch  13 | train 0.0006 acc 1.0000 | val 0.0007 acc 1.0000
+epoch  14 | train 0.0004 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  15 | train 0.0004 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  16 | train 0.0003 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  17 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  18 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  19 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  20 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  21 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  22 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  23 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  24 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  25 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  26 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  27 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  28 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  29 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  30 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  31 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  32 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  33 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  34 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  35 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  36 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  37 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  97 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  98 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  99 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch 100 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== pretrained, seed=789 ===
+============================================================
+AE epoch   1 | val 0.10864
+AE epoch   2 | val 0.07759
+AE epoch   3 | val 0.05905
+AE epoch   4 | val 0.04810
+AE epoch   5 | val 0.03973
+AE epoch   6 | val 0.03273
+AE epoch   7 | val 0.02657
+AE epoch   8 | val 0.02157
+AE epoch   9 | val 0.01728
+AE epoch  10 | val 0.01384
+AE epoch  11 | val 0.01098
+AE epoch  12 | val 0.00877
+AE epoch  13 | val 0.00703
+AE epoch  14 | val 0.00572
+AE epoch  15 | val 0.00474
+AE epoch  16 | val 0.00398
+AE epoch  17 | val 0.00337
+AE epoch  18 | val 0.00289
+AE epoch  19 | val 0.00252
+AE epoch  20 | val 0.00219
+AE epoch  21 | val 0.00194
+AE epoch  22 | val 0.00170
+AE epoch  23 | val 0.00151
+AE epoch  24 | val 0.00135
+AE epoch  25 | val 0.00122
+AE epoch  26 | val 0.00110
+AE epoch  27 | val 0.00100
+AE epoch  28 | val 0.00092
+AE epoch  29 | val 0.00084
+AE epoch  30 | val 0.00077
+AE epoch  31 | val 0.00071
+AE epoch  32 | val 0.00066
+AE epoch  33 | val 0.00061
+AE epoch  34 | val 0.00057
+AE epoch  35 | val 0.00053
+AE epoch  36 | val 0.00050
+AE epoch  37 | val 0.00047
+AE epoch  38 | val 0.00044
+AE epoch  39 | val 0.00041
+AE epoch  40 | val 0.00039
+AE epoch  41 | val 0.00036
+AE epoch  42 | val 0.00034
+AE epoch  43 | val 0.00033
+AE epoch  44 | val 0.00031
+AE epoch  45 | val 0.00029
+AE epoch  46 | val 0.00028
+AE epoch  47 | val 0.00026
+AE epoch  48 | val 0.00025
+AE epoch  49 | val 0.00024
+AE epoch  50 | val 0.00023
+AE epoch  51 | val 0.00022
+AE epoch  52 | val 0.00021
+AE epoch  53 | val 0.00020
+AE epoch  54 | val 0.00019
+AE epoch  55 | val 0.00018
+AE epoch  56 | val 0.00017
+AE epoch  57 | val 0.00017
+AE epoch  58 | val 0.00016
+AE epoch  59 | val 0.00015
+AE epoch  60 | val 0.00015
+AE epoch  61 | val 0.00014
+AE epoch  62 | val 0.00014
+AE epoch  63 | val 0.00013
+AE epoch  64 | val 0.00013
+AE epoch  65 | val 0.00012
+AE epoch  66 | val 0.00012
+AE epoch  67 | val 0.00011
+AE epoch  68 | val 0.00011
+AE epoch  69 | val 0.00011
+AE epoch  70 | val 0.00010
+AE epoch  71 | val 0.00010
+AE epoch  72 | val 0.00010
+AE epoch  73 | val 0.00009
+AE epoch  74 | val 0.00009
+AE epoch  75 | val 0.00009
+AE epoch  76 | val 0.00008
+AE epoch  77 | val 0.00008
+AE epoch  78 | val 0.00008
+AE epoch  79 | val 0.00008
+AE epoch  80 | val 0.00008
+AE epoch  81 | val 0.00007
+AE epoch  82 | val 0.00007
+AE epoch  83 | val 0.00007
+AE epoch  84 | val 0.00007
+AE epoch  85 | val 0.00007
+AE epoch  86 | val 0.00006
+AE epoch  87 | val 0.00006
+AE epoch  88 | val 0.00006
+AE epoch  89 | val 0.00006
+AE epoch  90 | val 0.00006
+AE epoch  91 | val 0.00006
+AE epoch  92 | val 0.00005
+AE epoch  93 | val 0.00005
+AE epoch  94 | val 0.00005
+AE epoch  95 | val 0.00005
+AE epoch  96 | val 0.00005
+AE epoch  97 | val 0.00005
+AE epoch  98 | val 0.00005
+AE epoch  99 | val 0.00004
+AE epoch 100 | val 0.00004
+AE epoch   1 | val 1.10040
+AE epoch   2 | val 0.85550
+AE epoch   3 | val 0.63395
+AE epoch   4 | val 0.50395
+AE epoch   5 | val 0.44600
+AE epoch   6 | val 0.40560
+AE epoch   7 | val 0.36646
+AE epoch   8 | val 0.33035
+AE epoch   9 | val 0.29705
+AE epoch  10 | val 0.26907
+AE epoch  11 | val 0.24419
+AE epoch  12 | val 0.21803
+AE epoch  13 | val 0.19578
+AE epoch  14 | val 0.17837
+AE epoch  15 | val 0.16344
+AE epoch  16 | val 0.14999
+AE epoch  17 | val 0.13916
+AE epoch  18 | val 0.12798
+AE epoch  19 | val 0.11961
+AE epoch  20 | val 0.10997
+AE epoch  21 | val 0.10221
+AE epoch  22 | val 0.09516
+AE epoch  23 | val 0.08881
+AE epoch  24 | val 0.08339
+AE epoch  25 | val 0.07780
+AE epoch  26 | val 0.07312
+AE epoch  27 | val 0.06925
+AE epoch  28 | val 0.06400
+AE epoch  29 | val 0.06037
+AE epoch  30 | val 0.05626
+AE epoch  31 | val 0.05272
+AE epoch  32 | val 0.05008
+AE epoch  33 | val 0.04715
+AE epoch  34 | val 0.04515
+AE epoch  35 | val 0.04259
+AE epoch  36 | val 0.04031
+AE epoch  37 | val 0.03829
+AE epoch  38 | val 0.03659
+AE epoch  39 | val 0.03509
+AE epoch  40 | val 0.03305
+AE epoch  41 | val 0.03162
+AE epoch  42 | val 0.02992
+AE epoch  43 | val 0.02878
+AE epoch  44 | val 0.02774
+AE epoch  45 | val 0.02629
+AE epoch  46 | val 0.02514
+AE epoch  47 | val 0.02408
+AE epoch  48 | val 0.02303
+AE epoch  49 | val 0.02214
+AE epoch  50 | val 0.02154
+AE epoch  51 | val 0.02063
+AE epoch  52 | val 0.02006
+AE epoch  53 | val 0.01945
+AE epoch  54 | val 0.01867
+AE epoch  55 | val 0.01843
+AE epoch  56 | val 0.01752
+AE epoch  57 | val 0.01697
+AE epoch  58 | val 0.01688
+AE epoch  59 | val 0.01629
+AE epoch  60 | val 0.01579
+AE epoch  61 | val 0.01550
+AE epoch  62 | val 0.01509
+AE epoch  63 | val 0.01485
+AE epoch  64 | val 0.01455
+AE epoch  65 | val 0.01417
+AE epoch  66 | val 0.01401
+AE epoch  67 | val 0.01354
+AE epoch  68 | val 0.01338
+AE epoch  69 | val 0.01303
+AE epoch  70 | val 0.01306
+AE epoch  71 | val 0.01273
+AE epoch  72 | val 0.01274
+AE epoch  73 | val 0.01243
+AE epoch  74 | val 0.01214
+AE epoch  75 | val 0.01218
+AE epoch  76 | val 0.01188
+AE epoch  77 | val 0.01173
+AE epoch  78 | val 0.01152
+AE epoch  79 | val 0.01137
+AE epoch  80 | val 0.01139
+AE epoch  81 | val 0.01121
+AE epoch  82 | val 0.01115
+AE epoch  83 | val 0.01090
+AE epoch  84 | val 0.01093
+AE epoch  85 | val 0.01054
+AE epoch  86 | val 0.01074
+AE epoch  87 | val 0.01069
+AE epoch  88 | val 0.01035
+AE epoch  89 | val 0.01047
+AE epoch  90 | val 0.01044
+AE epoch  91 | val 0.01039
+AE epoch  92 | val 0.01023
+AE epoch  93 | val 0.01014
+AE epoch  94 | val 0.00988
+AE epoch  95 | val 0.00977
+AE epoch  96 | val 0.00975
+AE epoch  97 | val 0.00971
+AE epoch  98 | val 0.00953
+AE epoch  99 | val 0.00953
+AE epoch 100 | val 0.00942
+AE epoch   1 | val 3.22166
+AE epoch   2 | val 1.64998
+AE epoch   3 | val 1.54970
+AE epoch   4 | val 1.48072
+AE epoch   5 | val 1.41216
+AE epoch   6 | val 1.32158
+AE epoch   7 | val 1.21186
+AE epoch   8 | val 1.10380
+AE epoch   9 | val 1.00317
+AE epoch  10 | val 0.91474
+AE epoch  11 | val 0.84623
+AE epoch  12 | val 0.79471
+AE epoch  13 | val 0.75632
+AE epoch  14 | val 0.72898
+AE epoch  15 | val 0.70275
+AE epoch  16 | val 0.67718
+AE epoch  17 | val 0.65707
+AE epoch  18 | val 0.63475
+AE epoch  19 | val 0.61854
+AE epoch  20 | val 0.59873
+AE epoch  21 | val 0.58008
+AE epoch  22 | val 0.56283
+AE epoch  23 | val 0.54618
+AE epoch  24 | val 0.53136
+AE epoch  25 | val 0.51342
+AE epoch  26 | val 0.49767
+AE epoch  27 | val 0.48214
+AE epoch  28 | val 0.46803
+AE epoch  29 | val 0.45664
+AE epoch  30 | val 0.44214
+AE epoch  31 | val 0.42969
+AE epoch  32 | val 0.41763
+AE epoch  33 | val 0.40699
+AE epoch  34 | val 0.39411
+AE epoch  35 | val 0.38450
+AE epoch  36 | val 0.37494
+AE epoch  37 | val 0.36634
+AE epoch  38 | val 0.35593
+AE epoch  39 | val 0.34806
+AE epoch  40 | val 0.34007
+AE epoch  41 | val 0.33156
+AE epoch  42 | val 0.32482
+AE epoch  43 | val 0.31780
+AE epoch  44 | val 0.31254
+AE epoch  45 | val 0.30619
+AE epoch  46 | val 0.29800
+AE epoch  47 | val 0.29352
+AE epoch  48 | val 0.28567
+AE epoch  49 | val 0.28023
+AE epoch  50 | val 0.27387
+AE epoch  51 | val 0.26858
+AE epoch  52 | val 0.26373
+AE epoch  53 | val 0.25751
+AE epoch  54 | val 0.25337
+AE epoch  55 | val 0.24750
+AE epoch  56 | val 0.24204
+AE epoch  57 | val 0.23744
+AE epoch  58 | val 0.23359
+AE epoch  59 | val 0.22881
+AE epoch  60 | val 0.22543
+AE epoch  61 | val 0.21943
+AE epoch  62 | val 0.21473
+AE epoch  63 | val 0.21130
+AE epoch  64 | val 0.20822
+AE epoch  65 | val 0.20345
+AE epoch  66 | val 0.20011
+AE epoch  67 | val 0.19743
+AE epoch  68 | val 0.19318
+AE epoch  69 | val 0.19235
+AE epoch  70 | val 0.18800
+AE epoch  71 | val 0.18613
+AE epoch  72 | val 0.18249
+AE epoch  73 | val 0.18037
+AE epoch  74 | val 0.17897
+AE epoch  75 | val 0.17599
+AE epoch  76 | val 0.17449
+AE epoch  77 | val 0.17175
+AE epoch  78 | val 0.16918
+AE epoch  79 | val 0.16869
+AE epoch  80 | val 0.16564
+AE epoch  81 | val 0.16653
+AE epoch  82 | val 0.16304
+AE epoch  83 | val 0.16137
+AE epoch  84 | val 0.15939
+AE epoch  85 | val 0.15819
+AE epoch  86 | val 0.15565
+AE epoch  87 | val 0.15521
+AE epoch  88 | val 0.15317
+AE epoch  89 | val 0.15209
+AE epoch  90 | val 0.15119
+AE epoch  91 | val 0.15038
+AE epoch  92 | val 0.14874
+AE epoch  93 | val 0.14865
+AE epoch  94 | val 0.14736
+AE epoch  95 | val 0.14630
+AE epoch  96 | val 0.14607
+AE epoch  97 | val 0.14483
+AE epoch  98 | val 0.14488
+AE epoch  99 | val 0.14398
+AE epoch 100 | val 0.14378
+epoch   1 | train 0.4034 acc 0.8308 | val 0.1472 acc 0.9546
+epoch   2 | train 0.0893 acc 0.9792 | val 0.0367 acc 0.9989
+epoch   3 | train 0.0340 acc 0.9945 | val 0.0179 acc 0.9989
+epoch   4 | train 0.0168 acc 0.9972 | val 0.0097 acc 0.9989
+epoch   5 | train 0.0091 acc 0.9992 | val 0.0060 acc 1.0000
+epoch   6 | train 0.0053 acc 1.0000 | val 0.0039 acc 1.0000
+epoch   7 | train 0.0035 acc 1.0000 | val 0.0028 acc 1.0000
+epoch   8 | train 0.0024 acc 1.0000 | val 0.0020 acc 1.0000
+epoch   9 | train 0.0017 acc 1.0000 | val 0.0015 acc 1.0000
+epoch  10 | train 0.0013 acc 1.0000 | val 0.0011 acc 1.0000
+epoch  11 | train 0.0010 acc 1.0000 | val 0.0009 acc 1.0000
+epoch  12 | train 0.0008 acc 1.0000 | val 0.0007 acc 1.0000
+epoch  13 | train 0.0006 acc 1.0000 | val 0.0006 acc 1.0000
+epoch  14 | train 0.0005 acc 1.0000 | val 0.0005 acc 1.0000
+epoch  15 | train 0.0004 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  16 | train 0.0004 acc 1.0000 | val 0.0004 acc 1.0000
+epoch  17 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  18 | train 0.0003 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  19 | train 0.0002 acc 1.0000 | val 0.0003 acc 1.0000
+epoch  20 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  21 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  22 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  23 | train 0.0002 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  24 | train 0.0001 acc 1.0000 | val 0.0002 acc 1.0000
+epoch  25 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  26 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  27 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  28 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  29 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  30 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  31 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  32 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  33 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  34 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  35 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  36 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  37 | train 0.0001 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  38 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  39 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  40 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  41 | train 0.0000 acc 1.0000 | val 0.0001 acc 1.0000
+epoch  42 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  43 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  44 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  45 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  46 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  47 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  48 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  49 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  50 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  51 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  52 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  53 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  54 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  55 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  56 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  57 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  58 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  59 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  60 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  61 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  62 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  63 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  64 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  65 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  66 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  67 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  68 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  69 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  70 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  71 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  72 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  73 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  74 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  75 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  76 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  77 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  78 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  79 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  80 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  81 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  82 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  83 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  84 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  85 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  86 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  87 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  88 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  89 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  90 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  91 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  92 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  93 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  94 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  95 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  96 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  97 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  98 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch  99 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+epoch 100 | train 0.0000 acc 1.0000 | val 0.0000 acc 1.0000
+RESULT: acc=1.0000, f1=1.0000
+CM:
+[[698   0]
+ [  0 431]]
+
+============================================================
+=== SUMMARY ===
+============================================================
+BASELINE mean±std (n=5):
+  acc: 1.0000 ± 0.0000
+  f1: 1.0000 ± 0.0000
+PRETRAINED mean±std (n=5):
+  acc: 1.0000 ± 0.0000
+  f1: 1.0000 ± 0.0000
+
+log: log_mushroom_20261103_114025.txt
+metrics: metrics_mushroom.csv

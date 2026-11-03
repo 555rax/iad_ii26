@@ -1,0 +1,11 @@
+model,acc,f1,seed
+baseline_seed42,1.0,1.0,42
+baseline_seed69,1.0,1.0,69
+baseline_seed123,1.0,1.0,123
+baseline_seed456,1.0,1.0,456
+baseline_seed789,1.0,1.0,789
+pretrained_seed42,1.0,1.0,42
+pretrained_seed69,1.0,1.0,69
+pretrained_seed123,1.0,1.0,123
+pretrained_seed456,1.0,1.0,456
+pretrained_seed789,1.0,1.0,789

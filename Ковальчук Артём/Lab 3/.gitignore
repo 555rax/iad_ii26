@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+data/
+results/
+doc/*.md
+README.md
+src/lab3.ipynb

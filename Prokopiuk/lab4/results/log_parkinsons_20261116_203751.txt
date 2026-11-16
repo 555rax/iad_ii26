@@ -1,0 +1,493 @@
+
+====================================================================
+=== ЛАБОРАТОРНАЯ РАБОТА №4 — PARKINSONS (РЕГРЕССИЯ) ===
+====================================================================
+Устройство: cuda
+Архитектура: 19 -> (128, 64, 32) -> 1
+Seed'ы: [42, 69, 123, 456, 789]
+
+====================================================================
+=== ДАННЫЕ ===
+====================================================================
+X: (5875, 19), y: (5875,)
+train=3760, val=940, test=1175
+X_train: mean=-0.0000, std=1.0000
+
+====================================================================
+=== Parkinsons | baseline | seed=42 ===
+====================================================================
+    baseline/seed42 epoch   1 | train 0.8867 | val 0.7927
+    baseline/seed42 epoch  10 | train 0.2973 | val 0.2938
+    baseline/seed42 epoch  20 | train 0.2099 | val 0.2364
+    baseline/seed42 epoch  30 | train 0.1558 | val 0.2223
+    baseline/seed42 epoch  40 | train 0.1148 | val 0.2068
+    baseline/seed42 epoch  50 | train 0.0892 | val 0.1840
+    baseline/seed42 epoch  60 | train 0.0734 | val 0.1779
+    baseline/seed42 epoch  70 | train 0.0544 | val 0.1685
+    baseline/seed42 epoch  80 | train 0.0505 | val 0.1603
+    baseline/seed42 epoch  90 | train 0.0431 | val 0.1601
+    baseline/seed42 epoch 100 | train 0.0367 | val 0.1501
+    baseline/seed42 early stop at epoch 102
+    RESULT baseline seed=42: MAE=2.3064, RMSE=3.6247, R2=0.7996, MAPE=13.10%
+
+====================================================================
+=== Parkinsons | ae | seed=42 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.26896
+    layer1 AE epoch  20 | val 0.00472
+    layer1 AE epoch  40 | val 0.00220
+    layer1 AE epoch  60 | val 0.00133
+    layer1 AE epoch  80 | val 0.00091
+    layer1 AE epoch 100 | val 0.00064
+    layer2 AE epoch   1 | val 0.08777
+    layer2 AE epoch  20 | val 0.00500
+    layer2 AE epoch  40 | val 0.00277
+    layer2 AE epoch  60 | val 0.00196
+    layer2 AE epoch  80 | val 0.00154
+    layer2 AE epoch 100 | val 0.00128
+    layer3 AE epoch   1 | val 0.30090
+    layer3 AE epoch  20 | val 0.04106
+    layer3 AE epoch  40 | val 0.01985
+    layer3 AE epoch  60 | val 0.01319
+    layer3 AE epoch  80 | val 0.00986
+    layer3 AE epoch 100 | val 0.00779
+    ae/seed42 epoch   1 | train 1.1865 | val 0.8387
+    ae/seed42 epoch  10 | train 0.3848 | val 0.3769
+    ae/seed42 epoch  20 | train 0.2679 | val 0.2688
+    ae/seed42 epoch  30 | train 0.1939 | val 0.2494
+    ae/seed42 epoch  40 | train 0.1566 | val 0.2160
+    ae/seed42 epoch  50 | train 0.1240 | val 0.1908
+    ae/seed42 epoch  60 | train 0.1068 | val 0.1918
+    ae/seed42 epoch  70 | train 0.0852 | val 0.1789
+    ae/seed42 epoch  80 | train 0.0760 | val 0.1801
+    ae/seed42 epoch  90 | train 0.0645 | val 0.1651
+    ae/seed42 epoch 100 | train 0.0551 | val 0.1590
+    ae/seed42 epoch 110 | train 0.0540 | val 0.1632
+    ae/seed42 epoch 120 | train 0.0446 | val 0.1590
+    ae/seed42 early stop at epoch 122
+    RESULT ae seed=42: MAE=2.3308, RMSE=3.6461, R2=0.7973, MAPE=13.57%
+
+====================================================================
+=== Parkinsons | rbm | seed=42 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.89097
+    layer1 RBM epoch  10 | recon 0.44967
+    layer1 RBM epoch  20 | recon 0.43594
+    layer1 RBM epoch  30 | recon 0.42953
+    layer1 RBM epoch  40 | recon 0.42324
+    layer1 RBM epoch  50 | recon 0.41265
+    layer1 RBM epoch  60 | recon 0.40681
+    layer2 RBM epoch   1 | recon 0.69288
+    layer2 RBM epoch  10 | recon 0.66803
+    layer2 RBM epoch  20 | recon 0.66746
+    layer2 RBM epoch  30 | recon 0.66752
+    layer2 RBM epoch  40 | recon 0.66715
+    layer3 RBM epoch   1 | recon 0.58113
+    layer3 RBM epoch  10 | recon 0.54816
+    layer3 RBM epoch  20 | recon 0.54147
+    layer3 RBM epoch  30 | recon 0.54086
+    layer3 RBM early stop at epoch 39
+    rbm/seed42 epoch   1 | train 5.4865 | val 1.0475
+    rbm/seed42 epoch  10 | train 0.7673 | val 0.7437
+    rbm/seed42 epoch  20 | train 0.4549 | val 0.4439
+    rbm/seed42 epoch  30 | train 0.3448 | val 0.3643
+    rbm/seed42 epoch  40 | train 0.2682 | val 0.3125
+    rbm/seed42 epoch  50 | train 0.2165 | val 0.2675
+    rbm/seed42 epoch  60 | train 0.1806 | val 0.2669
+    rbm/seed42 epoch  70 | train 0.1486 | val 0.2316
+    rbm/seed42 epoch  80 | train 0.1332 | val 0.2080
+    rbm/seed42 epoch  90 | train 0.1074 | val 0.2020
+    rbm/seed42 epoch 100 | train 0.0914 | val 0.1830
+    rbm/seed42 epoch 110 | train 0.0836 | val 0.1711
+    rbm/seed42 epoch 120 | train 0.0746 | val 0.1630
+    rbm/seed42 epoch 130 | train 0.0622 | val 0.1522
+    rbm/seed42 epoch 140 | train 0.0587 | val 0.1622
+    rbm/seed42 epoch 150 | train 0.0490 | val 0.1516
+    RESULT rbm seed=42: MAE=2.2015, RMSE=3.3476, R2=0.8291, MAPE=12.72%
+
+====================================================================
+=== Parkinsons | baseline | seed=69 ===
+====================================================================
+    baseline/seed69 epoch   1 | train 0.8746 | val 0.7744
+    baseline/seed69 epoch  10 | train 0.2890 | val 0.2995
+    baseline/seed69 epoch  20 | train 0.1851 | val 0.2216
+    baseline/seed69 epoch  30 | train 0.1257 | val 0.1749
+    baseline/seed69 epoch  40 | train 0.0993 | val 0.1505
+    baseline/seed69 epoch  50 | train 0.0691 | val 0.1335
+    baseline/seed69 epoch  60 | train 0.0585 | val 0.1372
+    baseline/seed69 epoch  70 | train 0.0465 | val 0.1160
+    baseline/seed69 epoch  80 | train 0.0399 | val 0.1077
+    baseline/seed69 epoch  90 | train 0.0361 | val 0.1091
+    baseline/seed69 epoch 100 | train 0.0264 | val 0.1110
+    baseline/seed69 epoch 110 | train 0.0294 | val 0.1079
+    baseline/seed69 early stop at epoch 111
+    RESULT baseline seed=69: MAE=2.0044, RMSE=3.0879, R2=0.8546, MAPE=11.47%
+
+====================================================================
+=== Parkinsons | ae | seed=69 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.29516
+    layer1 AE epoch  20 | val 0.00492
+    layer1 AE epoch  40 | val 0.00232
+    layer1 AE epoch  60 | val 0.00142
+    layer1 AE epoch  80 | val 0.00098
+    layer1 AE epoch 100 | val 0.00065
+    layer2 AE epoch   1 | val 0.08950
+    layer2 AE epoch  20 | val 0.00507
+    layer2 AE epoch  40 | val 0.00286
+    layer2 AE epoch  60 | val 0.00195
+    layer2 AE epoch  80 | val 0.00161
+    layer2 AE epoch 100 | val 0.00128
+    layer3 AE epoch   1 | val 0.34515
+    layer3 AE epoch  20 | val 0.03838
+    layer3 AE epoch  40 | val 0.01903
+    layer3 AE epoch  60 | val 0.01264
+    layer3 AE epoch  80 | val 0.00860
+    layer3 AE epoch 100 | val 0.00718
+    ae/seed69 epoch   1 | train 0.9157 | val 0.8110
+    ae/seed69 epoch  10 | train 0.3768 | val 0.3869
+    ae/seed69 epoch  20 | train 0.2566 | val 0.2884
+    ae/seed69 epoch  30 | train 0.2049 | val 0.2611
+    ae/seed69 epoch  40 | train 0.1830 | val 0.2441
+    ae/seed69 epoch  50 | train 0.1603 | val 0.2286
+    ae/seed69 epoch  60 | train 0.1370 | val 0.2285
+    ae/seed69 epoch  70 | train 0.1146 | val 0.2003
+    ae/seed69 epoch  80 | train 0.1064 | val 0.1973
+    ae/seed69 epoch  90 | train 0.0937 | val 0.1876
+    ae/seed69 epoch 100 | train 0.0812 | val 0.1794
+    ae/seed69 epoch 110 | train 0.0686 | val 0.1759
+    ae/seed69 epoch 120 | train 0.0604 | val 0.1738
+    ae/seed69 early stop at epoch 121
+    RESULT ae seed=69: MAE=2.4876, RMSE=3.7262, R2=0.7882, MAPE=14.70%
+
+====================================================================
+=== Parkinsons | rbm | seed=69 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.88897
+    layer1 RBM epoch  10 | recon 0.44507
+    layer1 RBM epoch  20 | recon 0.43688
+    layer1 RBM epoch  30 | recon 0.42827
+    layer1 RBM epoch  40 | recon 0.42413
+    layer1 RBM epoch  50 | recon 0.41637
+    layer1 RBM epoch  60 | recon 0.40404
+    layer2 RBM epoch   1 | recon 0.69234
+    layer2 RBM epoch  10 | recon 0.66838
+    layer2 RBM epoch  20 | recon 0.66756
+    layer2 RBM epoch  30 | recon 0.66747
+    layer2 RBM epoch  40 | recon 0.66739
+    layer3 RBM epoch   1 | recon 0.57541
+    layer3 RBM epoch  10 | recon 0.54050
+    layer3 RBM epoch  20 | recon 0.53523
+    layer3 RBM epoch  30 | recon 0.53518
+    layer3 RBM epoch  40 | recon 0.53478
+    rbm/seed69 epoch   1 | train 7.5095 | val 1.0485
+    rbm/seed69 epoch  10 | train 0.7378 | val 0.7110
+    rbm/seed69 epoch  20 | train 0.4068 | val 0.4340
+    rbm/seed69 epoch  30 | train 0.3063 | val 0.3269
+    rbm/seed69 epoch  40 | train 0.2535 | val 0.2936
+    rbm/seed69 epoch  50 | train 0.2020 | val 0.2528
+    rbm/seed69 epoch  60 | train 0.1804 | val 0.2335
+    rbm/seed69 epoch  70 | train 0.1334 | val 0.1975
+    rbm/seed69 epoch  80 | train 0.1224 | val 0.1969
+    rbm/seed69 epoch  90 | train 0.1017 | val 0.1749
+    rbm/seed69 epoch 100 | train 0.0937 | val 0.1603
+    rbm/seed69 epoch 110 | train 0.0851 | val 0.1645
+    rbm/seed69 epoch 120 | train 0.0718 | val 0.1517
+    rbm/seed69 epoch 130 | train 0.0659 | val 0.1522
+    rbm/seed69 epoch 140 | train 0.0568 | val 0.1339
+    rbm/seed69 epoch 150 | train 0.0536 | val 0.1612
+    RESULT rbm seed=69: MAE=2.0342, RMSE=3.0757, R2=0.8557, MAPE=11.21%
+
+====================================================================
+=== Parkinsons | baseline | seed=123 ===
+====================================================================
+    baseline/seed123 epoch   1 | train 0.8787 | val 0.7504
+    baseline/seed123 epoch  10 | train 0.2715 | val 0.2893
+    baseline/seed123 epoch  20 | train 0.1919 | val 0.2301
+    baseline/seed123 epoch  30 | train 0.1379 | val 0.2164
+    baseline/seed123 epoch  40 | train 0.1143 | val 0.1853
+    baseline/seed123 epoch  50 | train 0.0848 | val 0.1816
+    baseline/seed123 epoch  60 | train 0.0699 | val 0.1781
+    baseline/seed123 epoch  70 | train 0.0570 | val 0.1711
+    baseline/seed123 epoch  80 | train 0.0469 | val 0.1640
+    baseline/seed123 epoch  90 | train 0.0486 | val 0.1691
+    baseline/seed123 epoch 100 | train 0.0351 | val 0.1559
+    baseline/seed123 epoch 110 | train 0.0308 | val 0.1539
+    baseline/seed123 epoch 120 | train 0.0289 | val 0.1507
+    baseline/seed123 early stop at epoch 120
+    RESULT baseline seed=123: MAE=2.3418, RMSE=3.6635, R2=0.7953, MAPE=13.72%
+
+====================================================================
+=== Parkinsons | ae | seed=123 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.27668
+    layer1 AE epoch  20 | val 0.00456
+    layer1 AE epoch  40 | val 0.00236
+    layer1 AE epoch  60 | val 0.00151
+    layer1 AE epoch  80 | val 0.00103
+    layer1 AE epoch 100 | val 0.00072
+    layer2 AE epoch   1 | val 0.10244
+    layer2 AE epoch  20 | val 0.00568
+    layer2 AE epoch  40 | val 0.00291
+    layer2 AE epoch  60 | val 0.00195
+    layer2 AE epoch  80 | val 0.00155
+    layer2 AE epoch 100 | val 0.00131
+    layer3 AE epoch   1 | val 0.35905
+    layer3 AE epoch  20 | val 0.03765
+    layer3 AE epoch  40 | val 0.02048
+    layer3 AE epoch  60 | val 0.01388
+    layer3 AE epoch  80 | val 0.01105
+    layer3 AE epoch 100 | val 0.00949
+    ae/seed123 epoch   1 | train 0.9462 | val 0.8134
+    ae/seed123 epoch  10 | train 0.3891 | val 0.3829
+    ae/seed123 epoch  20 | train 0.2764 | val 0.2994
+    ae/seed123 epoch  30 | train 0.2186 | val 0.2422
+    ae/seed123 epoch  40 | train 0.1942 | val 0.2316
+    ae/seed123 epoch  50 | train 0.1568 | val 0.2025
+    ae/seed123 epoch  60 | train 0.1300 | val 0.1936
+    ae/seed123 epoch  70 | train 0.1117 | val 0.1975
+    ae/seed123 epoch  80 | train 0.0974 | val 0.1827
+    ae/seed123 epoch  90 | train 0.0859 | val 0.1915
+    ae/seed123 epoch 100 | train 0.0902 | val 0.1903
+    ae/seed123 epoch 110 | train 0.0667 | val 0.1758
+    ae/seed123 early stop at epoch 113
+    RESULT ae seed=123: MAE=2.5413, RMSE=3.7999, R2=0.7798, MAPE=15.20%
+
+====================================================================
+=== Parkinsons | rbm | seed=123 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.88865
+    layer1 RBM epoch  10 | recon 0.44499
+    layer1 RBM epoch  20 | recon 0.43636
+    layer1 RBM epoch  30 | recon 0.43032
+    layer1 RBM epoch  40 | recon 0.42433
+    layer1 RBM epoch  50 | recon 0.41659
+    layer1 RBM epoch  60 | recon 0.40547
+    layer2 RBM epoch   1 | recon 0.69275
+    layer2 RBM epoch  10 | recon 0.66810
+    layer2 RBM epoch  20 | recon 0.66781
+    layer2 RBM epoch  30 | recon 0.66756
+    layer2 RBM epoch  40 | recon 0.66751
+    layer3 RBM epoch   1 | recon 0.57741
+    layer3 RBM epoch  10 | recon 0.54474
+    layer3 RBM epoch  20 | recon 0.53805
+    layer3 RBM epoch  30 | recon 0.53781
+    layer3 RBM epoch  40 | recon 0.53772
+    rbm/seed123 epoch   1 | train 1.4435 | val 0.9464
+    rbm/seed123 epoch  10 | train 0.7249 | val 0.6927
+    rbm/seed123 epoch  20 | train 0.3594 | val 0.3561
+    rbm/seed123 epoch  30 | train 0.2778 | val 0.3066
+    rbm/seed123 epoch  40 | train 0.2381 | val 0.2524
+    rbm/seed123 epoch  50 | train 0.1978 | val 0.2293
+    rbm/seed123 epoch  60 | train 0.1629 | val 0.2196
+    rbm/seed123 epoch  70 | train 0.1409 | val 0.1994
+    rbm/seed123 epoch  80 | train 0.1280 | val 0.1941
+    rbm/seed123 epoch  90 | train 0.1067 | val 0.1858
+    rbm/seed123 epoch 100 | train 0.0981 | val 0.1703
+    rbm/seed123 epoch 110 | train 0.0869 | val 0.1583
+    rbm/seed123 epoch 120 | train 0.0788 | val 0.1856
+    rbm/seed123 early stop at epoch 125
+    RESULT rbm seed=123: MAE=2.3973, RMSE=3.6110, R2=0.8011, MAPE=14.44%
+
+====================================================================
+=== Parkinsons | baseline | seed=456 ===
+====================================================================
+    baseline/seed456 epoch   1 | train 0.8991 | val 0.7493
+    baseline/seed456 epoch  10 | train 0.2942 | val 0.2874
+    baseline/seed456 epoch  20 | train 0.1982 | val 0.2330
+    baseline/seed456 epoch  30 | train 0.1472 | val 0.2092
+    baseline/seed456 epoch  40 | train 0.1087 | val 0.1990
+    baseline/seed456 epoch  50 | train 0.0897 | val 0.1769
+    baseline/seed456 epoch  60 | train 0.0770 | val 0.1713
+    baseline/seed456 epoch  70 | train 0.0554 | val 0.1666
+    baseline/seed456 epoch  80 | train 0.0448 | val 0.1582
+    baseline/seed456 epoch  90 | train 0.0485 | val 0.1523
+    baseline/seed456 epoch 100 | train 0.0371 | val 0.1489
+    baseline/seed456 epoch 110 | train 0.0327 | val 0.1515
+    baseline/seed456 epoch 120 | train 0.0268 | val 0.1445
+    baseline/seed456 early stop at epoch 124
+    RESULT baseline seed=456: MAE=2.2986, RMSE=3.6440, R2=0.7975, MAPE=13.28%
+
+====================================================================
+=== Parkinsons | ae | seed=456 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.24917
+    layer1 AE epoch  20 | val 0.00437
+    layer1 AE epoch  40 | val 0.00207
+    layer1 AE epoch  60 | val 0.00133
+    layer1 AE epoch  80 | val 0.00087
+    layer1 AE epoch 100 | val 0.00061
+    layer2 AE epoch   1 | val 0.10334
+    layer2 AE epoch  20 | val 0.00578
+    layer2 AE epoch  40 | val 0.00305
+    layer2 AE epoch  60 | val 0.00210
+    layer2 AE epoch  80 | val 0.00170
+    layer2 AE epoch 100 | val 0.00141
+    layer3 AE epoch   1 | val 0.44267
+    layer3 AE epoch  20 | val 0.04460
+    layer3 AE epoch  40 | val 0.02342
+    layer3 AE epoch  60 | val 0.01659
+    layer3 AE epoch  80 | val 0.01182
+    layer3 AE epoch 100 | val 0.00888
+    ae/seed456 epoch   1 | train 0.8981 | val 0.8085
+    ae/seed456 epoch  10 | train 0.3848 | val 0.3743
+    ae/seed456 epoch  20 | train 0.2473 | val 0.2740
+    ae/seed456 epoch  30 | train 0.1988 | val 0.2350
+    ae/seed456 epoch  40 | train 0.1602 | val 0.2255
+    ae/seed456 epoch  50 | train 0.1315 | val 0.1884
+    ae/seed456 epoch  60 | train 0.1123 | val 0.1887
+    ae/seed456 epoch  70 | train 0.0964 | val 0.1716
+    ae/seed456 epoch  80 | train 0.0861 | val 0.1700
+    ae/seed456 epoch  90 | train 0.0754 | val 0.1766
+    ae/seed456 epoch 100 | train 0.0680 | val 0.1595
+    ae/seed456 epoch 110 | train 0.0550 | val 0.1533
+    ae/seed456 epoch 120 | train 0.0481 | val 0.1647
+    ae/seed456 epoch 130 | train 0.0424 | val 0.1482
+    ae/seed456 epoch 140 | train 0.0447 | val 0.1500
+    ae/seed456 early stop at epoch 147
+    RESULT ae seed=456: MAE=2.3845, RMSE=3.5693, R2=0.8057, MAPE=13.45%
+
+====================================================================
+=== Parkinsons | rbm | seed=456 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.89151
+    layer1 RBM epoch  10 | recon 0.44639
+    layer1 RBM epoch  20 | recon 0.43817
+    layer1 RBM epoch  30 | recon 0.42949
+    layer1 RBM epoch  40 | recon 0.42311
+    layer1 RBM epoch  50 | recon 0.41295
+    layer1 RBM epoch  60 | recon 0.40527
+    layer2 RBM epoch   1 | recon 0.69244
+    layer2 RBM epoch  10 | recon 0.66861
+    layer2 RBM epoch  20 | recon 0.66777
+    layer2 RBM epoch  30 | recon 0.66755
+    layer2 RBM early stop at epoch 34
+    layer3 RBM epoch   1 | recon 0.58493
+    layer3 RBM epoch  10 | recon 0.54920
+    layer3 RBM epoch  20 | recon 0.54560
+    layer3 RBM early stop at epoch 27
+    rbm/seed456 epoch   1 | train 1.8652 | val 0.9362
+    rbm/seed456 epoch  10 | train 0.7017 | val 0.6350
+    rbm/seed456 epoch  20 | train 0.3755 | val 0.3825
+    rbm/seed456 epoch  30 | train 0.2720 | val 0.2936
+    rbm/seed456 epoch  40 | train 0.2014 | val 0.2372
+    rbm/seed456 epoch  50 | train 0.1592 | val 0.2126
+    rbm/seed456 epoch  60 | train 0.1262 | val 0.2018
+    rbm/seed456 epoch  70 | train 0.1016 | val 0.1762
+    rbm/seed456 epoch  80 | train 0.0850 | val 0.1670
+    rbm/seed456 epoch  90 | train 0.0844 | val 0.1758
+    rbm/seed456 epoch 100 | train 0.0679 | val 0.1537
+    rbm/seed456 epoch 110 | train 0.0583 | val 0.1507
+    rbm/seed456 epoch 120 | train 0.0546 | val 0.1475
+    rbm/seed456 early stop at epoch 120
+    RESULT rbm seed=456: MAE=2.2721, RMSE=3.5105, R2=0.8120, MAPE=12.96%
+
+====================================================================
+=== Parkinsons | baseline | seed=789 ===
+====================================================================
+    baseline/seed789 epoch   1 | train 0.8565 | val 0.7638
+    baseline/seed789 epoch  10 | train 0.2829 | val 0.3057
+    baseline/seed789 epoch  20 | train 0.1852 | val 0.2444
+    baseline/seed789 epoch  30 | train 0.1375 | val 0.2122
+    baseline/seed789 epoch  40 | train 0.1111 | val 0.1940
+    baseline/seed789 epoch  50 | train 0.0807 | val 0.1738
+    baseline/seed789 epoch  60 | train 0.0650 | val 0.1729
+    baseline/seed789 epoch  70 | train 0.0491 | val 0.1600
+    baseline/seed789 epoch  80 | train 0.0434 | val 0.1640
+    baseline/seed789 epoch  90 | train 0.0323 | val 0.1553
+    baseline/seed789 epoch 100 | train 0.0308 | val 0.1511
+    baseline/seed789 early stop at epoch 103
+    RESULT baseline seed=789: MAE=2.2538, RMSE=3.4475, R2=0.8187, MAPE=12.96%
+
+====================================================================
+=== Parkinsons | ae | seed=789 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.23829
+    layer1 AE epoch  20 | val 0.00436
+    layer1 AE epoch  40 | val 0.00217
+    layer1 AE epoch  60 | val 0.00129
+    layer1 AE epoch  80 | val 0.00085
+    layer1 AE epoch 100 | val 0.00060
+    layer2 AE epoch   1 | val 0.09492
+    layer2 AE epoch  20 | val 0.00545
+    layer2 AE epoch  40 | val 0.00292
+    layer2 AE epoch  60 | val 0.00201
+    layer2 AE epoch  80 | val 0.00165
+    layer2 AE epoch 100 | val 0.00126
+    layer3 AE epoch   1 | val 0.48799
+    layer3 AE epoch  20 | val 0.05287
+    layer3 AE epoch  40 | val 0.03245
+    layer3 AE epoch  60 | val 0.02227
+    layer3 AE epoch  80 | val 0.01637
+    layer3 AE epoch 100 | val 0.01480
+    ae/seed789 epoch   1 | train 0.9140 | val 0.8015
+    ae/seed789 epoch  10 | train 0.3803 | val 0.3814
+    ae/seed789 epoch  20 | train 0.2518 | val 0.2733
+    ae/seed789 epoch  30 | train 0.1928 | val 0.2460
+    ae/seed789 epoch  40 | train 0.1577 | val 0.2173
+    ae/seed789 epoch  50 | train 0.1266 | val 0.2031
+    ae/seed789 epoch  60 | train 0.1137 | val 0.1880
+    ae/seed789 epoch  70 | train 0.0949 | val 0.1796
+    ae/seed789 epoch  80 | train 0.0891 | val 0.1973
+    ae/seed789 epoch  90 | train 0.0750 | val 0.1755
+    ae/seed789 epoch 100 | train 0.0642 | val 0.1699
+    ae/seed789 epoch 110 | train 0.0563 | val 0.1667
+    ae/seed789 early stop at epoch 113
+    RESULT ae seed=789: MAE=2.4479, RMSE=3.6565, R2=0.7961, MAPE=14.93%
+
+====================================================================
+=== Parkinsons | rbm | seed=789 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.88965
+    layer1 RBM epoch  10 | recon 0.44751
+    layer1 RBM epoch  20 | recon 0.43461
+    layer1 RBM epoch  30 | recon 0.43061
+    layer1 RBM epoch  40 | recon 0.42415
+    layer1 RBM epoch  50 | recon 0.41532
+    layer1 RBM epoch  60 | recon 0.40277
+    layer2 RBM epoch   1 | recon 0.69240
+    layer2 RBM epoch  10 | recon 0.66808
+    layer2 RBM epoch  20 | recon 0.66736
+    layer2 RBM epoch  30 | recon 0.66726
+    layer2 RBM epoch  40 | recon 0.66715
+    layer3 RBM epoch   1 | recon 0.57755
+    layer3 RBM epoch  10 | recon 0.54193
+    layer3 RBM epoch  20 | recon 0.53623
+    layer3 RBM epoch  30 | recon 0.53611
+    layer3 RBM epoch  40 | recon 0.53595
+    rbm/seed789 epoch   1 | train 1.1782 | val 0.9495
+    rbm/seed789 epoch  10 | train 0.4692 | val 0.4474
+    rbm/seed789 epoch  20 | train 0.2923 | val 0.2983
+    rbm/seed789 epoch  30 | train 0.2147 | val 0.2342
+    rbm/seed789 epoch  40 | train 0.1664 | val 0.1845
+    rbm/seed789 epoch  50 | train 0.1333 | val 0.1833
+    rbm/seed789 epoch  60 | train 0.1052 | val 0.1395
+    rbm/seed789 epoch  70 | train 0.0900 | val 0.1412
+    rbm/seed789 epoch  80 | train 0.0676 | val 0.1303
+    rbm/seed789 epoch  90 | train 0.0563 | val 0.1251
+    rbm/seed789 epoch 100 | train 0.0462 | val 0.1432
+    rbm/seed789 epoch 110 | train 0.0411 | val 0.1275
+    rbm/seed789 epoch 120 | train 0.0367 | val 0.1272
+    rbm/seed789 epoch 130 | train 0.0350 | val 0.1241
+    rbm/seed789 early stop at epoch 138
+    RESULT rbm seed=789: MAE=1.9460, RMSE=3.1584, R2=0.8479, MAPE=11.41%
+
+====================================================================
+=== СВОДКА ===
+====================================================================
+baseline MAE  : 2.2410 ± 0.1216
+baseline RMSE : 3.4935 ± 0.2170
+baseline R2   : 0.8131 ± 0.0223
+baseline MAPE : 12.9066 ± 0.7632
+ae       MAE  : 2.4384 ± 0.0743
+ae       RMSE : 3.6796 ± 0.0781
+ae       R2   : 0.7934 ± 0.0088
+ae       MAPE : 14.3696 ± 0.7170
+rbm      MAE  : 2.1702 ± 0.1623
+rbm      RMSE : 3.3406 ± 0.2027
+rbm      R2   : 0.8292 ± 0.0207
+rbm      MAPE : 12.5477 ± 1.1710
+
+Метрики: D:\univer\iad\iad_ii26\Prokopiuk\lab4\results\parkinsons_metrics.csv
+Сводка:  D:\univer\iad\iad_ii26\Prokopiuk\lab4\results\parkinsons_summary.csv
+Графики: D:\univer\iad\iad_ii26\Prokopiuk\lab4\results

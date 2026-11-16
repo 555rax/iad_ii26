@@ -1,0 +1,469 @@
+
+====================================================================
+=== ЛАБОРАТОРНАЯ РАБОТА №4 — MUSHROOM (КЛАССИФИКАЦИЯ) ===
+====================================================================
+Устройство: cuda
+Архитектура: in_dim -> (128, 64, 32) -> 2
+Seed'ы: [42, 69, 123, 456, 789]
+
+====================================================================
+=== ДАННЫЕ ===
+====================================================================
+Исходная таблица: (8124, 23)
+Баланс классов (edible=1, poisonous=0): [3916 4208]
+Пропуски '?' обрабатываются как отдельная категория (как в ЛР2)
+После One-Hot Encoding: 117 признаков
+train=5199, val=1300, test=1625
+Доля единиц в X_train: 0.1880
+
+====================================================================
+=== Mushroom | baseline | seed=42 ===
+====================================================================
+    baseline/seed42 epoch   1 | train 0.4329 | val 0.0572 acc 0.9846
+    baseline/seed42 epoch  10 | train 0.0001 | val 0.0001 acc 1.0000
+    baseline/seed42 epoch  20 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed42 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed42 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed42 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed42 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed42 early stop at epoch 64
+    RESULT baseline seed=42: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | ae | seed=42 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.08773
+    layer1 AE epoch  20 | val 0.00121
+    layer1 AE epoch  40 | val 0.00026
+    layer1 AE epoch  60 | val 0.00013
+    layer1 AE epoch  80 | val 0.00009
+    layer1 AE epoch 100 | val 0.00007
+    layer2 AE epoch   1 | val 1.20869
+    layer2 AE epoch  20 | val 0.09647
+    layer2 AE epoch  40 | val 0.03572
+    layer2 AE epoch  60 | val 0.02098
+    layer2 AE epoch  80 | val 0.01650
+    layer2 AE epoch 100 | val 0.01438
+    layer3 AE epoch   1 | val 3.43778
+    layer3 AE epoch  20 | val 0.67594
+    layer3 AE epoch  40 | val 0.42901
+    layer3 AE epoch  60 | val 0.37663
+    layer3 AE epoch  80 | val 0.36344
+    layer3 AE epoch 100 | val 0.35601
+    ae/seed42 epoch   1 | train 0.6390 | val 0.2393 acc 0.8915
+    ae/seed42 epoch  10 | train 0.0009 | val 0.0010 acc 1.0000
+    ae/seed42 epoch  20 | train 0.0001 | val 0.0001 acc 1.0000
+    ae/seed42 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed42 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT ae seed=42: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | rbm | seed=42 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.30932
+    layer1 RBM epoch  10 | recon 0.15192
+    layer1 RBM epoch  20 | recon 0.11536
+    layer1 RBM epoch  30 | recon 0.09495
+    layer1 RBM epoch  40 | recon 0.08106
+    layer2 RBM epoch   1 | recon 0.64067
+    layer2 RBM epoch  10 | recon 0.38727
+    layer2 RBM epoch  20 | recon 0.37379
+    layer2 RBM epoch  30 | recon 0.36792
+    layer2 RBM epoch  40 | recon 0.36421
+    layer3 RBM epoch   1 | recon 0.60825
+    layer3 RBM epoch  10 | recon 0.23140
+    layer3 RBM epoch  20 | recon 0.19759
+    layer3 RBM epoch  30 | recon 0.18867
+    layer3 RBM epoch  40 | recon 0.18506
+    rbm/seed42 epoch   1 | train 2.1023 | val 0.1759 acc 0.9600
+    rbm/seed42 epoch  10 | train 0.0010 | val 0.0044 acc 0.9985
+    rbm/seed42 epoch  20 | train 0.0003 | val 0.0021 acc 0.9985
+    rbm/seed42 epoch  30 | train 0.0001 | val 0.0012 acc 0.9992
+    rbm/seed42 epoch  40 | train 0.0001 | val 0.0007 acc 1.0000
+    rbm/seed42 epoch  50 | train 0.0000 | val 0.0005 acc 1.0000
+    rbm/seed42 epoch  60 | train 0.0000 | val 0.0004 acc 1.0000
+    rbm/seed42 epoch  70 | train 0.0000 | val 0.0003 acc 1.0000
+    rbm/seed42 epoch  80 | train 0.0000 | val 0.0002 acc 1.0000
+    rbm/seed42 epoch  90 | train 0.0000 | val 0.0001 acc 1.0000
+    rbm/seed42 epoch 100 | train 0.0000 | val 0.0001 acc 1.0000
+    RESULT rbm seed=42: acc=0.9994, f1_macro=0.9994, f1=0.9994
+    CM:
+[[783   0]
+ [  1 841]]
+
+====================================================================
+=== Mushroom | baseline | seed=69 ===
+====================================================================
+    baseline/seed69 epoch   1 | train 0.4266 | val 0.0594 acc 0.9846
+    baseline/seed69 epoch  10 | train 0.0001 | val 0.0001 acc 1.0000
+    baseline/seed69 epoch  20 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed69 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed69 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed69 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed69 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed69 early stop at epoch 69
+    RESULT baseline seed=69: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | ae | seed=69 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.08783
+    layer1 AE epoch  20 | val 0.00127
+    layer1 AE epoch  40 | val 0.00026
+    layer1 AE epoch  60 | val 0.00010
+    layer1 AE epoch  80 | val 0.00006
+    layer1 AE epoch 100 | val 0.00004
+    layer2 AE epoch   1 | val 1.16290
+    layer2 AE epoch  20 | val 0.09911
+    layer2 AE epoch  40 | val 0.03410
+    layer2 AE epoch  60 | val 0.02248
+    layer2 AE epoch  80 | val 0.01805
+    layer2 AE epoch 100 | val 0.01674
+    layer3 AE epoch   1 | val 3.07421
+    layer3 AE epoch  20 | val 0.55656
+    layer3 AE epoch  40 | val 0.31815
+    layer3 AE epoch  60 | val 0.24476
+    layer3 AE epoch  80 | val 0.19545
+    layer3 AE epoch 100 | val 0.18263
+    ae/seed69 epoch   1 | train 0.6486 | val 0.2361 acc 0.9023
+    ae/seed69 epoch  10 | train 0.0017 | val 0.0015 acc 1.0000
+    ae/seed69 epoch  20 | train 0.0003 | val 0.0003 acc 1.0000
+    ae/seed69 epoch  30 | train 0.0001 | val 0.0001 acc 1.0000
+    ae/seed69 epoch  40 | train 0.0001 | val 0.0001 acc 1.0000
+    ae/seed69 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed69 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed69 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed69 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed69 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed69 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT ae seed=69: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | rbm | seed=69 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.30921
+    layer1 RBM epoch  10 | recon 0.15111
+    layer1 RBM epoch  20 | recon 0.11514
+    layer1 RBM epoch  30 | recon 0.09545
+    layer1 RBM epoch  40 | recon 0.08061
+    layer2 RBM epoch   1 | recon 0.64332
+    layer2 RBM epoch  10 | recon 0.39097
+    layer2 RBM epoch  20 | recon 0.37705
+    layer2 RBM epoch  30 | recon 0.37134
+    layer2 RBM epoch  40 | recon 0.36867
+    layer3 RBM epoch   1 | recon 0.59819
+    layer3 RBM epoch  10 | recon 0.20914
+    layer3 RBM epoch  20 | recon 0.18573
+    layer3 RBM epoch  30 | recon 0.17865
+    layer3 RBM epoch  40 | recon 0.17554
+    rbm/seed69 epoch   1 | train 11.8988 | val 0.9827 acc 0.8977
+    rbm/seed69 epoch  10 | train 0.0044 | val 0.0058 acc 0.9985
+    rbm/seed69 epoch  20 | train 0.0009 | val 0.0018 acc 0.9992
+    rbm/seed69 epoch  30 | train 0.0004 | val 0.0010 acc 1.0000
+    rbm/seed69 epoch  40 | train 0.0002 | val 0.0006 acc 1.0000
+    rbm/seed69 epoch  50 | train 0.0001 | val 0.0004 acc 1.0000
+    rbm/seed69 epoch  60 | train 0.0001 | val 0.0003 acc 1.0000
+    rbm/seed69 epoch  70 | train 0.0000 | val 0.0002 acc 1.0000
+    rbm/seed69 epoch  80 | train 0.0000 | val 0.0001 acc 1.0000
+    rbm/seed69 epoch  90 | train 0.0000 | val 0.0001 acc 1.0000
+    rbm/seed69 epoch 100 | train 0.0000 | val 0.0001 acc 1.0000
+    RESULT rbm seed=69: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | baseline | seed=123 ===
+====================================================================
+    baseline/seed123 epoch   1 | train 0.3914 | val 0.0500 acc 0.9869
+    baseline/seed123 epoch  10 | train 0.0001 | val 0.0001 acc 1.0000
+    baseline/seed123 epoch  20 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed123 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed123 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed123 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed123 early stop at epoch 52
+    RESULT baseline seed=123: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | ae | seed=123 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.08695
+    layer1 AE epoch  20 | val 0.00131
+    layer1 AE epoch  40 | val 0.00031
+    layer1 AE epoch  60 | val 0.00017
+    layer1 AE epoch  80 | val 0.00009
+    layer1 AE epoch 100 | val 0.00003
+    layer2 AE epoch   1 | val 1.22732
+    layer2 AE epoch  20 | val 0.08803
+    layer2 AE epoch  40 | val 0.03016
+    layer2 AE epoch  60 | val 0.01850
+    layer2 AE epoch  80 | val 0.01365
+    layer2 AE epoch 100 | val 0.01093
+    layer3 AE epoch   1 | val 2.47195
+    layer3 AE epoch  20 | val 0.56078
+    layer3 AE epoch  40 | val 0.32602
+    layer3 AE epoch  60 | val 0.27404
+    layer3 AE epoch  80 | val 0.26541
+    layer3 AE epoch 100 | val 0.25910
+    ae/seed123 epoch   1 | train 0.3359 | val 0.0999 acc 0.9777
+    ae/seed123 epoch  10 | train 0.0014 | val 0.0020 acc 0.9992
+    ae/seed123 epoch  20 | train 0.0002 | val 0.0003 acc 1.0000
+    ae/seed123 epoch  30 | train 0.0001 | val 0.0001 acc 1.0000
+    ae/seed123 epoch  40 | train 0.0000 | val 0.0001 acc 1.0000
+    ae/seed123 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed123 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed123 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed123 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed123 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed123 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT ae seed=123: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | rbm | seed=123 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.30918
+    layer1 RBM epoch  10 | recon 0.15043
+    layer1 RBM epoch  20 | recon 0.11552
+    layer1 RBM epoch  30 | recon 0.09485
+    layer1 RBM epoch  40 | recon 0.08113
+    layer2 RBM epoch   1 | recon 0.64166
+    layer2 RBM epoch  10 | recon 0.38322
+    layer2 RBM epoch  20 | recon 0.37110
+    layer2 RBM epoch  30 | recon 0.36400
+    layer2 RBM epoch  40 | recon 0.36163
+    layer3 RBM epoch   1 | recon 0.61037
+    layer3 RBM epoch  10 | recon 0.22988
+    layer3 RBM epoch  20 | recon 0.20167
+    layer3 RBM epoch  30 | recon 0.19371
+    layer3 RBM epoch  40 | recon 0.19019
+    rbm/seed123 epoch   1 | train 20.0203 | val 1.4070 acc 0.8669
+    rbm/seed123 epoch  10 | train 0.0053 | val 0.0030 acc 1.0000
+    rbm/seed123 epoch  20 | train 0.0008 | val 0.0006 acc 1.0000
+    rbm/seed123 epoch  30 | train 0.0003 | val 0.0002 acc 1.0000
+    rbm/seed123 epoch  40 | train 0.0002 | val 0.0001 acc 1.0000
+    rbm/seed123 epoch  50 | train 0.0001 | val 0.0001 acc 1.0000
+    rbm/seed123 epoch  60 | train 0.0001 | val 0.0001 acc 1.0000
+    rbm/seed123 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    rbm/seed123 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    rbm/seed123 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    rbm/seed123 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT rbm seed=123: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | baseline | seed=456 ===
+====================================================================
+    baseline/seed456 epoch   1 | train 0.3980 | val 0.0467 acc 0.9831
+    baseline/seed456 epoch  10 | train 0.0001 | val 0.0002 acc 1.0000
+    baseline/seed456 epoch  20 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed456 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed456 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed456 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed456 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed456 early stop at epoch 68
+    RESULT baseline seed=456: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | ae | seed=456 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.08624
+    layer1 AE epoch  20 | val 0.00118
+    layer1 AE epoch  40 | val 0.00024
+    layer1 AE epoch  60 | val 0.00009
+    layer1 AE epoch  80 | val 0.00004
+    layer1 AE epoch 100 | val 0.00002
+    layer2 AE epoch   1 | val 1.14639
+    layer2 AE epoch  20 | val 0.08463
+    layer2 AE epoch  40 | val 0.03134
+    layer2 AE epoch  60 | val 0.01971
+    layer2 AE epoch  80 | val 0.01440
+    layer2 AE epoch 100 | val 0.01329
+    layer3 AE epoch   1 | val 3.04418
+    layer3 AE epoch  20 | val 0.64980
+    layer3 AE epoch  40 | val 0.37158
+    layer3 AE epoch  60 | val 0.29840
+    layer3 AE epoch  80 | val 0.28222
+    layer3 AE epoch 100 | val 0.27611
+    ae/seed456 epoch   1 | train 0.5293 | val 0.1751 acc 0.9400
+    ae/seed456 epoch  10 | train 0.0015 | val 0.0018 acc 0.9992
+    ae/seed456 epoch  20 | train 0.0003 | val 0.0003 acc 1.0000
+    ae/seed456 epoch  30 | train 0.0001 | val 0.0001 acc 1.0000
+    ae/seed456 epoch  40 | train 0.0000 | val 0.0001 acc 1.0000
+    ae/seed456 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed456 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed456 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed456 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed456 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed456 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT ae seed=456: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | rbm | seed=456 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.30948
+    layer1 RBM epoch  10 | recon 0.15076
+    layer1 RBM epoch  20 | recon 0.11444
+    layer1 RBM epoch  30 | recon 0.09416
+    layer1 RBM epoch  40 | recon 0.08046
+    layer2 RBM epoch   1 | recon 0.63686
+    layer2 RBM epoch  10 | recon 0.37887
+    layer2 RBM epoch  20 | recon 0.36514
+    layer2 RBM epoch  30 | recon 0.35826
+    layer2 RBM epoch  40 | recon 0.35504
+    layer3 RBM epoch   1 | recon 0.61173
+    layer3 RBM epoch  10 | recon 0.23123
+    layer3 RBM epoch  20 | recon 0.20518
+    layer3 RBM epoch  30 | recon 0.19713
+    layer3 RBM epoch  40 | recon 0.19305
+    rbm/seed456 epoch   1 | train 10.2011 | val 2.1619 acc 0.8623
+    rbm/seed456 epoch  10 | train 0.0055 | val 0.0086 acc 0.9977
+    rbm/seed456 epoch  20 | train 0.0009 | val 0.0030 acc 0.9992
+    rbm/seed456 epoch  30 | train 0.0004 | val 0.0019 acc 0.9992
+    rbm/seed456 epoch  40 | train 0.0002 | val 0.0013 acc 0.9992
+    rbm/seed456 epoch  50 | train 0.0001 | val 0.0010 acc 0.9992
+    rbm/seed456 epoch  60 | train 0.0001 | val 0.0007 acc 0.9992
+    rbm/seed456 epoch  70 | train 0.0001 | val 0.0005 acc 1.0000
+    rbm/seed456 epoch  80 | train 0.0000 | val 0.0004 acc 1.0000
+    rbm/seed456 epoch  90 | train 0.0000 | val 0.0003 acc 1.0000
+    rbm/seed456 epoch 100 | train 0.0000 | val 0.0002 acc 1.0000
+    RESULT rbm seed=456: acc=0.9994, f1_macro=0.9994, f1=0.9994
+    CM:
+[[783   0]
+ [  1 841]]
+
+====================================================================
+=== Mushroom | baseline | seed=789 ===
+====================================================================
+    baseline/seed789 epoch   1 | train 0.3902 | val 0.0418 acc 0.9869
+    baseline/seed789 epoch  10 | train 0.0001 | val 0.0001 acc 1.0000
+    baseline/seed789 epoch  20 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 epoch  30 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    baseline/seed789 early stop at epoch 70
+    RESULT baseline seed=789: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | ae | seed=789 ===
+====================================================================
+    layer1 AE epoch   1 | val 0.08479
+    layer1 AE epoch  20 | val 0.00127
+    layer1 AE epoch  40 | val 0.00029
+    layer1 AE epoch  60 | val 0.00015
+    layer1 AE epoch  80 | val 0.00008
+    layer1 AE epoch 100 | val 0.00003
+    layer2 AE epoch   1 | val 1.18808
+    layer2 AE epoch  20 | val 0.09945
+    layer2 AE epoch  40 | val 0.04344
+    layer2 AE epoch  60 | val 0.03050
+    layer2 AE epoch  80 | val 0.02717
+    layer2 AE epoch 100 | val 0.02656
+    layer3 AE epoch   1 | val 2.76943
+    layer3 AE epoch  20 | val 0.54815
+    layer3 AE epoch  40 | val 0.30095
+    layer3 AE epoch  60 | val 0.25140
+    layer3 AE epoch  80 | val 0.23901
+    layer3 AE epoch 100 | val 0.23013
+    ae/seed789 epoch   1 | train 0.3983 | val 0.1344 acc 0.9662
+    ae/seed789 epoch  10 | train 0.0013 | val 0.0015 acc 1.0000
+    ae/seed789 epoch  20 | train 0.0001 | val 0.0003 acc 1.0000
+    ae/seed789 epoch  30 | train 0.0000 | val 0.0001 acc 1.0000
+    ae/seed789 epoch  40 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch  50 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch  60 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch  70 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch  80 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch  90 | train 0.0000 | val 0.0000 acc 1.0000
+    ae/seed789 epoch 100 | train 0.0000 | val 0.0000 acc 1.0000
+    RESULT ae seed=789: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== Mushroom | rbm | seed=789 ===
+====================================================================
+    layer1 RBM epoch   1 | recon 0.30919
+    layer1 RBM epoch  10 | recon 0.15081
+    layer1 RBM epoch  20 | recon 0.11419
+    layer1 RBM epoch  30 | recon 0.09398
+    layer1 RBM epoch  40 | recon 0.08013
+    layer2 RBM epoch   1 | recon 0.64425
+    layer2 RBM epoch  10 | recon 0.38993
+    layer2 RBM epoch  20 | recon 0.37595
+    layer2 RBM epoch  30 | recon 0.36984
+    layer2 RBM epoch  40 | recon 0.36622
+    layer3 RBM epoch   1 | recon 0.61109
+    layer3 RBM epoch  10 | recon 0.22294
+    layer3 RBM epoch  20 | recon 0.19447
+    layer3 RBM epoch  30 | recon 0.18704
+    layer3 RBM epoch  40 | recon 0.18314
+    rbm/seed789 epoch   1 | train 5.1793 | val 0.1962 acc 0.9508
+    rbm/seed789 epoch  10 | train 0.0023 | val 0.0033 acc 0.9992
+    rbm/seed789 epoch  20 | train 0.0005 | val 0.0012 acc 0.9992
+    rbm/seed789 epoch  30 | train 0.0002 | val 0.0007 acc 0.9992
+    rbm/seed789 epoch  40 | train 0.0001 | val 0.0005 acc 1.0000
+    rbm/seed789 epoch  50 | train 0.0001 | val 0.0004 acc 1.0000
+    rbm/seed789 epoch  60 | train 0.0001 | val 0.0003 acc 1.0000
+    rbm/seed789 epoch  70 | train 0.0000 | val 0.0002 acc 1.0000
+    rbm/seed789 epoch  80 | train 0.0000 | val 0.0002 acc 1.0000
+    rbm/seed789 epoch  90 | train 0.0000 | val 0.0001 acc 1.0000
+    rbm/seed789 epoch 100 | train 0.0000 | val 0.0001 acc 1.0000
+    RESULT rbm seed=789: acc=1.0000, f1_macro=1.0000, f1=1.0000
+    CM:
+[[783   0]
+ [  0 842]]
+
+====================================================================
+=== СВОДКА ===
+====================================================================
+baseline accuracy : 1.0000 ± 0.0000
+baseline f1_macro : 1.0000 ± 0.0000
+baseline f1       : 1.0000 ± 0.0000
+ae       accuracy : 1.0000 ± 0.0000
+ae       f1_macro : 1.0000 ± 0.0000
+ae       f1       : 1.0000 ± 0.0000
+rbm      accuracy : 0.9998 ± 0.0003
+rbm      f1_macro : 0.9998 ± 0.0003
+rbm      f1       : 0.9998 ± 0.0003
+
+Метрики: D:\univer\iad\iad_ii26\Prokopiuk\lab4\results\mushroom_metrics.csv
+Сводка:  D:\univer\iad\iad_ii26\Prokopiuk\lab4\results\mushroom_summary.csv
+Графики: D:\univer\iad\iad_ii26\Prokopiuk\lab4\results

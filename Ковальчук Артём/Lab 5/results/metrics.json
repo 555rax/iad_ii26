@@ -1,0 +1,100 @@
+{
+  "student": "Ковальчук Артём",
+  "group": "ИИ-26",
+  "lab": 5,
+  "variant": 7,
+  "dataset": "Telco Customer Churn",
+  "n_rows": 7043,
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate": 0.2653698707936959,
+  "missing_total_charges": 11,
+  "unlimited_tree": {
+    "depth": 22,
+    "leaves": 1102,
+    "f1_train": 0.996309963099631,
+    "f1_test": 0.4743083003952569
+  },
+  "tree_params": {
+    "ccp_alpha": 0.001,
+    "criterion": "gini",
+    "max_depth": 8,
+    "min_samples_leaf": 40
+  },
+  "tree_depth": 6,
+  "tree_leaves": 21,
+  "rf_params": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 15,
+    "n_estimators": 250
+  },
+  "ada_params": {
+    "learning_rate": 1.0,
+    "n_estimators": 80
+  },
+  "catboost_best_iteration": 166,
+  "xgboost_best_iteration": 435,
+  "scale_pos_weight": 2.768561872909699,
+  "metrics": {
+    "Decision Tree": {
+      "accuracy": 0.754436,
+      "precision": 0.524823,
+      "recall": 0.791444,
+      "f1": 0.63113,
+      "roc_auc": 0.830528,
+      "f1_train": 0.636748,
+      "seconds": 8.126216
+    },
+    "Random Forest": {
+      "accuracy": 0.753726,
+      "precision": 0.52381,
+      "recall": 0.794118,
+      "f1": 0.631243,
+      "roc_auc": 0.844101,
+      "f1_train": 0.669323,
+      "seconds": 8.332521
+    },
+    "AdaBoost": {
+      "accuracy": 0.726047,
+      "precision": 0.490291,
+      "recall": 0.81016,
+      "f1": 0.610887,
+      "roc_auc": 0.817823,
+      "f1_train": 0.608849,
+      "seconds": 2.344715
+    },
+    "CatBoost": {
+      "accuracy": 0.74379,
+      "precision": 0.511226,
+      "recall": 0.791444,
+      "f1": 0.621196,
+      "roc_auc": 0.843708,
+      "f1_train": 0.643269,
+      "seconds": 1.25118
+    },
+    "XGBoost": {
+      "accuracy": 0.749468,
+      "precision": 0.518584,
+      "recall": 0.783422,
+      "f1": 0.624068,
+      "roc_auc": 0.840259,
+      "f1_train": 0.676873,
+      "seconds": 0.319005
+    }
+  },
+  "top_tree_features": {
+    "Contract_Month-to-month": 0.621832,
+    "tenure": 0.113366,
+    "InternetService_Fiber optic": 0.110372,
+    "MonthlyCharges": 0.051671,
+    "Contract_Two year": 0.02027,
+    "TechSupport_No": 0.019882,
+    "TotalCharges": 0.013892,
+    "OnlineSecurity_No": 0.012998,
+    "StreamingMovies_No": 0.012695,
+    "PhoneService_Yes": 0.011889,
+    "PaymentMethod_Electronic check": 0.011134,
+    "SeniorCitizen_0": 0.0
+  }
+}
